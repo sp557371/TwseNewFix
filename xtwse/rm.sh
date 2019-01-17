@@ -1,0 +1,16 @@
+rm -rf .deps
+rm -rf .libs
+rm -rf autom4te.cache
+rm -rf config
+rm -rf configure
+rm -rf Makefile
+rm -rf libtool
+rm -rf *.in*
+rm -rf *.la
+rm -rf config.log
+rm -rf aclocal.m4
+rm -rf config.status
+rm -rf autoscan.log
+rm -rf stamp-h1
+rm -rf config.h
+rm -rf *.lo

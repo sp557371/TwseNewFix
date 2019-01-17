@@ -1,0 +1,1922 @@
+Loading... SignonSvr: libxsSignonSvrDB.so
+±“∞ §§...
+OK!
+XCtrl main startup!
+Now is: 103/08/06 16:37:28
+EvDev:poll. Ready.
+ns$2014/08/06 16:37:29.158 AppiaMW Session Link Fail! (172.16.53.199:6113)(connect fail(79):Connection refused)
+2014/08/06 16:37:29.160 AppiaMW Session Link Fail! (172.16.53.199:6213)(connect fail(79):Connection refused)
+2014/08/06 16:37:59.167 AppiaMW Session Link Fail! (172.16.53.199:6113)(connect fail(79):Connection refused)
+2014/08/06 16:37:59.187 AppiaMW Session Link Fail! (172.16.53.199:6213)(connect fail(79):Connection refused)
+2014/08/06 16:38:29.172 AppiaMW Session Link Fail! (172.16.53.199:6113)(connect fail(79):Connection refused)
+2014/08/06 16:38:29.192 AppiaMW Session Link Fail! (172.16.53.199:6213)(connect fail(79):Connection refused)
+..1.. Pos=0, MaxLen=1024, buf=M_PROLOG_BEGIN_TAG 
+# This is an automatically generated prolog. 
+#  
+# bos61D src/bos/usr/sbin/netstart/hosts 1.2 
+#  
+# Licensed Materials - Property of IBM 
+#  
+# COPYRIGHT International Business Machines Corp. 1985,1989 
+# All Rights Reserved 
+#  
+# US Government Users Restricted Rights - Use, duplication or 
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp. 
+#  
+# @(#)47	1.2  src/bos/usr/sbin/netstart/hosts, cmdnet, bos61D, d2007_49A2 10/1/07 13:57:52
+# IBM_PROLOG_END_TAG 
+# 
+# COMPONENT_NAME: TCPIP hosts
+# 
+# FUNCTIONS: loopback 
+#
+# ORIGINS: 26  27 
+#
+# (C) COPYRIGHT International Business Machines Corp. 1985, 1989
+# All Rights Reserved
+# Licensed Materials - Property of IBM
+#
+# US Government Users Restricted Rights - Use, duplication or
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+#
+#  /etc/hosts
+#
+# This file contains the hostnames and their address for hosts in the
+# network.  This file is used to resolve a hostname into an Internet
+# address.  
+#
+# At minimum, this file must contain the name and address for each
+# device defined for TCP in your /etc/net file.  It may also contain
+# entries for well-known (reserved) names such as timeserver
+# and printserver as well as any other host name and address.
+#
+# The format of this file is:
+# Internet Address	Hostname	# Comments
+# Internet Address can be either IPv4 or IPv6 address.
+# Items are separated by any number of blanks and/or tabs.  A '#'
+# indicates the beginning of a comment; characters up to the end of the
+# line are not interpreted by routines which search this file.  Blank
+# lines are allowed.
+
+# Internet Address	Hostname	# Comments
+# 192.9.200.1     	net0sample	# ethernet name/address
+# 128.100.0.1		token0sample	# token ring name/address
+# 10.2.0.2		x25sample	# x.25 name/address
+# 2000:1:1:1:209:6bff:feee:2b7f		ipv6sample	# ipv6 name/address
+127.0.0.1		loopback localhost	# loopback (lo0) name/address
+::1			loopback localhost	# IPv6 loopback (lo0) name/address
+172.16.53.199	win-way
+
+..2.. rdsz=4, Pos=0, buf=
+
+OLOG_BEGIN_TAG 
+# This is an automatically generated prolog. 
+#  
+# bos61D src/bos/usr/sbin/netstart/hosts 1.2 
+#  
+# Licensed Materials - Property of IBM 
+#  
+# COPYRIGHT International Business Machines Corp. 1985,1989 
+# All Rights Reserved 
+#  
+# US Government Users Restricted Rights - Use, duplication or 
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp. 
+#  
+# @(#)47	1.2  src/bos/usr/sbin/netstart/hosts, cmdnet, bos61D, d2007_49A2 10/1/07 13:57:52
+# IBM_PROLOG_END_TAG 
+# 
+# COMPONENT_NAME: TCPIP hosts
+# 
+# FUNCTIONS: loopback 
+#
+# ORIGINS: 26  27 
+#
+# (C) COPYRIGHT International Business Machines Corp. 1985, 1989
+# All Rights Reserved
+# Licensed Materials - Property of IBM
+#
+# US Government Users Restricted Rights - Use, duplication or
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+#
+#  /etc/hosts
+#
+# This file contains the hostnames and their address for hosts in the
+# network.  This file is used to resolve a hostname into an Internet
+# address.  
+#
+# At minimum, this file must contain the name and address for each
+# device defined for TCP in your /etc/net file.  It may also contain
+# entries for well-known (reserved) names such as timeserver
+# and printserver as well as any other host name and address.
+#
+# The format of this file is:
+# Internet Address	Hostname	# Comments
+# Internet Address can be either IPv4 or IPv6 address.
+# Items are separated by any number of blanks and/or tabs.  A '#'
+# indicates the beginning of a comment; characters up to the end of the
+# line are not interpreted by routines which search this file.  Blank
+# lines are allowed.
+
+# Internet Address	Hostname	# Comments
+# 192.9.200.1     	net0sample	# ethernet name/address
+# 128.100.0.1		token0sample	# token ring name/address
+# 10.2.0.2		x25sample	# x.25 name/address
+# 2000:1:1:1:209:6bff:feee:2b7f		ipv6sample	# ipv6 name/address
+127.0.0.1		loopback localhost	# loopback (lo0) name/address
+::1			loopback localhost	# IPv6 loopback (lo0) name/address
+172.16.53.199	win-way
+
+..2-1.. Seperator=, Pos=4, buf=
+
+
+..3.. len=1, Pos=4, S=, buf=
+..4.. Pos=2, buf=
+..4-1.1.. Pos=2, buf=
+..4-1.2.. Pos=2, buf=
+
+..3.. len=1, Pos=2, S=, buf=
+..4.. Pos=0, buf=
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=18, Pos=0, buf=GET / HTTP/1.0
+
+
+..2-1.. Seperator=, Pos=18, buf=GET / HTTP/1.0
+
+
+..3.. len=15, Pos=18, S=, buf=GET / HTTP/1.0
+..4.. Pos=2, buf=GET / HTTP/1.0
+..4-1.1.. Pos=2, buf=GET / HTTP/1.0
+..4-1.2.. Pos=2, buf=
+
+..3.. len=1, Pos=2, S=, buf=
+..4.. Pos=0, buf=
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=22, Pos=0, buf=OPTIONS / HTTP/1.0
+
+
+..2-1.. Seperator=, Pos=22, buf=OPTIONS / HTTP/1.0
+
+
+..3.. len=19, Pos=22, S=, buf=OPTIONS / HTTP/1.0
+..4.. Pos=2, buf=OPTIONS / HTTP/1.0
+..4-1.1.. Pos=2, buf=OPTIONS / HTTP/1.0
+..4-1.2.. Pos=2, buf=
+
+..3.. len=1, Pos=2, S=, buf=
+..4.. Pos=0, buf=
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=22, Pos=0, buf=OPTIONS / RTSP/1.0
+
+
+..2-1.. Seperator=, Pos=22, buf=OPTIONS / RTSP/1.0
+
+
+..3.. len=19, Pos=22, S=, buf=OPTIONS / RTSP/1.0
+..4.. Pos=2, buf=OPTIONS / RTSP/1.0
+..4-1.1.. Pos=2, buf=OPTIONS / RTSP/1.0
+..4-1.2.. Pos=2, buf=
+
+..3.. len=1, Pos=2, S=, buf=
+..4.. Pos=0, buf=
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=44, Pos=0, buf=Ä
+..2-1.. Seperator=, Pos=44, buf=Ä
+..5.. Pos=44, buf=Ä
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=32, Pos=0, buf=
+..2-1.. Seperator=, Pos=32, buf=
+..5.. Pos=32, buf=
+2014/08/06 16:38:59.174 AppiaMW Session Link Fail! (172.16.53.199:6113)(connect fail(79):Connection refused)
+2014/08/06 16:38:59.195 AppiaMW Session Link Fail! (172.16.53.199:6213)(connect fail(79):Connection refused)
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=14, Pos=0, buf=
+..2-1.. Seperator=, Pos=14, buf=
+..5.. Pos=14, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=6, Pos=0, buf=HELP
+
+..2-1.. Seperator=, Pos=6, buf=HELP
+
+..3.. len=5, Pos=6, S=, buf=HELP
+..4.. Pos=0, buf=HELP
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=88, Pos=0, buf=
+..2-1.. Seperator=, Pos=88, buf=
+..5.. Pos=88, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=117, Pos=0, buf=
+..2-1.. Seperator=, Pos=117, buf=
+..5.. Pos=117, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=168, Pos=0, buf=
+..2-1.. Seperator=, Pos=168, buf=
+..5.. Pos=168, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=12, Pos=0, buf=l
+..2-1.. Seperator=, Pos=12, buf=l
+..5.. Pos=12, buf=l
+2014/08/06 16:39:29.181 AppiaMW Session Link Fail! (172.16.53.199:6113)(connect fail(79):Connection refused)
+2014/08/06 16:39:29.200 AppiaMW Session Link Fail! (172.16.53.199:6213)(connect fail(79):Connection refused)
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=53, Pos=0, buf=GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0
+
+
+..2-1.. Seperator=, Pos=53, buf=GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0
+
+
+..3.. len=50, Pos=53, S=, buf=GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0
+..4.. Pos=2, buf=GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0
+..4-1.1.. Pos=2, buf=GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0
+..4-1.2.. Pos=2, buf=
+
+..3.. len=1, Pos=2, S=, buf=
+..4.. Pos=0, buf=
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=9, Pos=0, buf=default
+
+..2-1.. Seperator=, Pos=9, buf=default
+
+..3.. len=8, Pos=9, S=, buf=default
+..4.. Pos=0, buf=default
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=14, Pos=0, buf=0`
+..2-1.. Seperator=, Pos=14, buf=0`
+..5.. Pos=14, buf=0`
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=223, Pos=0, buf=OPTIONS sip:nm SIP/2.0
+Via: SIP/2.0/TCP nm;branch=foo
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Max-Forwards: 70
+Content-Length: 0
+Contact: <sip:nm@nm>
+Accept: application/sdp
+
+
+..2-1.. Seperator=, Pos=223, buf=OPTIONS sip:nm SIP/2.0
+Via: SIP/2.0/TCP nm;branch=foo
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Max-Forwards: 70
+Content-Length: 0
+Contact: <sip:nm@nm>
+Accept: application/sdp
+
+
+..3.. len=23, Pos=223, S=, buf=OPTIONS sip:nm SIP/2.0
+..4.. Pos=199, buf=OPTIONS sip:nm SIP/2.0
+..4-1.1.. Pos=199, buf=OPTIONS sip:nm SIP/2.0
+..4-1.2.. Pos=199, buf=Via: SIP/2.0/TCP nm;branch=foo
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Max-Forwards: 70
+Content-Length: 0
+Contact: <sip:nm@nm>
+Accept: application/sdp
+
+
+..3.. len=31, Pos=199, S=, buf=Via: SIP/2.0/TCP nm;branch=foo
+..4.. Pos=167, buf=Via: SIP/2.0/TCP nm;branch=foo
+..4-1.1.. Pos=167, buf=Via: SIP/2.0/TCP nm;branch=foo
+..4-1.2.. Pos=167, buf=From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Max-Forwards: 70
+Content-Length: 0
+Contact: <sip:nm@nm>
+Accept: application/sdp
+
+
+..3.. len=27, Pos=167, S=, buf=From: <sip:nm@nm>;tag=root
+..4.. Pos=139, buf=From: <sip:nm@nm>;tag=root
+..4-1.1.. Pos=139, buf=From: <sip:nm@nm>;tag=root
+..4-1.2.. Pos=139, buf=To: <sip:nm2@nm2>
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Max-Forwards: 70
+Content-Length: 0
+Contact: <sip:nm@nm>
+Accept: application/sdp
+
+
+..3.. len=18, Pos=139, S=, buf=To: <sip:nm2@nm2>
+..4.. Pos=120, buf=To: <sip:nm2@nm2>
+..4-1.1.. Pos=120, buf=To: <sip:nm2@nm2>
+..4-1.2.. Pos=120, buf=Call-ID: 50000
+CSeq: 42 OPTIONS
+Max-Forwards: 70
+Content-Length: 0
+Contact: <sip:nm@nm>
+Accept: application/sdp
+
+
+..3.. len=15, Pos=120, S=, buf=Call-ID: 50000
+..4.. Pos=104, buf=Call-ID: 50000
+..4-1.1.. Pos=104, buf=Call-ID: 50000
+..4-1.2.. Pos=104, buf=CSeq: 42 OPTIONS
+Max-Forwards: 70
+Content-Length: 0
+Contact: <sip:nm@nm>
+Accept: application/sdp
+
+
+..3.. len=17, Pos=104, S=, buf=CSeq: 42 OPTIONS
+..4.. Pos=86, buf=CSeq: 42 OPTIONS
+..4-1.1.. Pos=86, buf=CSeq: 42 OPTIONS
+..4-1.2.. Pos=86, buf=Max-Forwards: 70
+Content-Length: 0
+Contact: <sip:nm@nm>
+Accept: application/sdp
+
+
+..3.. len=17, Pos=86, S=, buf=Max-Forwards: 70
+..4.. Pos=68, buf=Max-Forwards: 70
+..4-1.1.. Pos=68, buf=Max-Forwards: 70
+..4-1.2.. Pos=68, buf=Content-Length: 0
+Contact: <sip:nm@nm>
+Accept: application/sdp
+
+
+..3.. len=18, Pos=68, S=, buf=Content-Length: 0
+..4.. Pos=49, buf=Content-Length: 0
+..4-1.1.. Pos=49, buf=Content-Length: 0
+..4-1.2.. Pos=49, buf=Contact: <sip:nm@nm>
+Accept: application/sdp
+
+
+..3.. len=21, Pos=49, S=, buf=Contact: <sip:nm@nm>
+..4.. Pos=27, buf=Contact: <sip:nm@nm>
+..4-1.1.. Pos=27, buf=Contact: <sip:nm@nm>
+..4-1.2.. Pos=27, buf=Accept: application/sdp
+
+
+..3.. len=24, Pos=27, S=, buf=Accept: application/sdp
+..4.. Pos=2, buf=Accept: application/sdp
+..4-1.1.. Pos=2, buf=Accept: application/sdp
+..4-1.2.. Pos=2, buf=
+
+..3.. len=1, Pos=2, S=, buf=
+..4.. Pos=0, buf=
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=16, Pos=0, buf=TNMP
+..2-1.. Seperator=, Pos=16, buf=TNMP
+..5.. Pos=16, buf=TNMP
+2014/08/06 16:39:59.199 AppiaMW Session Link Fail! (172.16.53.199:6113)(connect fail(79):Connection refused)
+2014/08/06 16:39:59.209 AppiaMW Session Link Fail! (172.16.53.199:6213)(connect fail(79):Connection refused)
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=11, Pos=0, buf=
+..2-1.. Seperator=, Pos=11, buf=
+..5.. Pos=11, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=23, Pos=0, buf=DmdT
+..2-1.. Seperator=, Pos=23, buf=DmdT
+..5.. Pos=23, buf=DmdT
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=60, Pos=0, buf=:
+..2-1.. Seperator=, Pos=60, buf=:
+..5.. Pos=60, buf=:
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=175, Pos=0, buf=
+..2-1.. Seperator=, Pos=175, buf=
+..5.. Pos=175, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=90, Pos=0, buf=
+..2-1.. Seperator=, Pos=90, buf=
+..5.. Pos=90, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=18, Pos=0, buf=
+..2-1.. Seperator=, Pos=18, buf=
+..5.. Pos=18, buf=
+2014/08/06 16:40:29.199 AppiaMW Session Link Fail! (172.16.53.199:6113)(connect fail(79):Connection refused)
+2014/08/06 16:40:29.219 AppiaMW Session Link Fail! (172.16.53.199:6213)(connect fail(79):Connection refused)
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=8, Pos=0, buf=î
+..2-1.. Seperator=, Pos=8, buf=î
+..5.. Pos=8, buf=î
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+2014/08/06 16:40:59.204 AppiaMW Session Link Fail! (172.16.53.199:6113)(connect fail(79):Connection refused)
+2014/08/06 16:40:59.224 AppiaMW Session Link Fail! (172.16.53.199:6213)(connect fail(79):Connection refused)
+2014/08/06 16:41:29.209 AppiaMW Session Link Fail! (172.16.53.199:6113)(connect fail(79):Connection refused)
+2014/08/06 16:41:29.232 AppiaMW Session Link Fail! (172.16.53.199:6213)(connect fail(79):Connection refused)
+2014/08/06 16:41:59.219 AppiaMW Session Link Fail! (172.16.53.199:6113)(connect fail(79):Connection refused)
+2014/08/06 16:41:59.239 AppiaMW Session Link Fail! (172.16.53.199:6213)(connect fail(79):Connection refused)
+..1.. Pos=0, MaxLen=1024, buf=M_PROLOG_BEGIN_TAG 
+# This is an automatically generated prolog. 
+#  
+# bos61D src/bos/usr/sbin/netstart/hosts 1.2 
+#  
+# Licensed Materials - Property of IBM 
+#  
+# COPYRIGHT International Business Machines Corp. 1985,1989 
+# All Rights Reserved 
+#  
+# US Government Users Restricted Rights - Use, duplication or 
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp. 
+#  
+# @(#)47	1.2  src/bos/usr/sbin/netstart/hosts, cmdnet, bos61D, d2007_49A2 10/1/07 13:57:52
+# IBM_PROLOG_END_TAG 
+# 
+# COMPONENT_NAME: TCPIP hosts
+# 
+# FUNCTIONS: loopback 
+#
+# ORIGINS: 26  27 
+#
+# (C) COPYRIGHT International Business Machines Corp. 1985, 1989
+# All Rights Reserved
+# Licensed Materials - Property of IBM
+#
+# US Government Users Restricted Rights - Use, duplication or
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+#
+#  /etc/hosts
+#
+# This file contains the hostnames and their address for hosts in the
+# network.  This file is used to resolve a hostname into an Internet
+# address.  
+#
+# At minimum, this file must contain the name and address for each
+# device defined for TCP in your /etc/net file.  It may also contain
+# entries for well-known (reserved) names such as timeserver
+# and printserver as well as any other host name and address.
+#
+# The format of this file is:
+# Internet Address	Hostname	# Comments
+# Internet Address can be either IPv4 or IPv6 address.
+# Items are separated by any number of blanks and/or tabs.  A '#'
+# indicates the beginning of a comment; characters up to the end of the
+# line are not interpreted by routines which search this file.  Blank
+# lines are allowed.
+
+# Internet Address	Hostname	# Comments
+# 192.9.200.1     	net0sample	# ethernet name/address
+# 128.100.0.1		token0sample	# token ring name/address
+# 10.2.0.2		x25sample	# x.25 name/address
+# 2000:1:1:1:209:6bff:feee:2b7f		ipv6sample	# ipv6 name/address
+127.0.0.1		loopback localhost	# loopback (lo0) name/address
+::1			loopback localhost	# IPv6 loopback (lo0) name/address
+172.16.53.199	win-way
+
+..2.. rdsz=44, Pos=0, buf=Ä
+..2-1.. Seperator=, Pos=44, buf=Ä
+..5.. Pos=44, buf=Ä
+2014/08/06 16:42:29.222 AppiaMW Session Link Fail! (172.16.53.199:6113)(connect fail(79):Connection refused)
+2014/08/06 16:42:29.242 AppiaMW Session Link Fail! (172.16.53.199:6213)(connect fail(79):Connection refused)
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+2014/08/06 16:42:59.227 AppiaMW Session Link Fail! (172.16.53.199:6113)(connect fail(79):Connection refused)
+2014/08/06 16:42:59.248 AppiaMW Session Link Fail! (172.16.53.199:6213)(connect fail(79):Connection refused)
+..1.. Pos=0, MaxLen=1024, buf=M_PROLOG_BEGIN_TAG 
+# This is an automatically generated prolog. 
+#  
+# bos61D src/bos/usr/sbin/netstart/hosts 1.2 
+#  
+# Licensed Materials - Property of IBM 
+#  
+# COPYRIGHT International Business Machines Corp. 1985,1989 
+# All Rights Reserved 
+#  
+# US Government Users Restricted Rights - Use, duplication or 
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp. 
+#  
+# @(#)47	1.2  src/bos/usr/sbin/netstart/hosts, cmdnet, bos61D, d2007_49A2 10/1/07 13:57:52
+# IBM_PROLOG_END_TAG 
+# 
+# COMPONENT_NAME: TCPIP hosts
+# 
+# FUNCTIONS: loopback 
+#
+# ORIGINS: 26  27 
+#
+# (C) COPYRIGHT International Business Machines Corp. 1985, 1989
+# All Rights Reserved
+# Licensed Materials - Property of IBM
+#
+# US Government Users Restricted Rights - Use, duplication or
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+#
+#  /etc/hosts
+#
+# This file contains the hostnames and their address for hosts in the
+# network.  This file is used to resolve a hostname into an Internet
+# address.  
+#
+# At minimum, this file must contain the name and address for each
+# device defined for TCP in your /etc/net file.  It may also contain
+# entries for well-known (reserved) names such as timeserver
+# and printserver as well as any other host name and address.
+#
+# The format of this file is:
+# Internet Address	Hostname	# Comments
+# Internet Address can be either IPv4 or IPv6 address.
+# Items are separated by any number of blanks and/or tabs.  A '#'
+# indicates the beginning of a comment; characters up to the end of the
+# line are not interpreted by routines which search this file.  Blank
+# lines are allowed.
+
+# Internet Address	Hostname	# Comments
+# 192.9.200.1     	net0sample	# ethernet name/address
+# 128.100.0.1		token0sample	# token ring name/address
+# 10.2.0.2		x25sample	# x.25 name/address
+# 2000:1:1:1:209:6bff:feee:2b7f		ipv6sample	# ipv6 name/address
+127.0.0.1		loopback localhost	# loopback (lo0) name/address
+::1			loopback localhost	# IPv6 loopback (lo0) name/address
+172.16.53.199	win-way
+
+..2.. rdsz=75, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-1;CronGroup;1010.Start Process;Begin-1
+61D src/bos/usr/sbin/netstart/hosts 1.2 
+#  
+# Licensed Materials - Property of IBM 
+#  
+# COPYRIGHT International Business Machines Corp. 1985,1989 
+# All Rights Reserved 
+#  
+# US Government Users Restricted Rights - Use, duplication or 
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp. 
+#  
+# @(#)47	1.2  src/bos/usr/sbin/netstart/hosts, cmdnet, bos61D, d2007_49A2 10/1/07 13:57:52
+# IBM_PROLOG_END_TAG 
+# 
+# COMPONENT_NAME: TCPIP hosts
+# 
+# FUNCTIONS: loopback 
+#
+# ORIGINS: 26  27 
+#
+# (C) COPYRIGHT International Business Machines Corp. 1985, 1989
+# All Rights Reserved
+# Licensed Materials - Property of IBM
+#
+# US Government Users Restricted Rights - Use, duplication or
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+#
+#  /etc/hosts
+#
+# This file contains the hostnames and their address for hosts in the
+# network.  This file is used to resolve a hostname into an Internet
+# address.  
+#
+# At minimum, this file must contain the name and address for each
+# device defined for TCP in your /etc/net file.  It may also contain
+# entries for well-known (reserved) names such as timeserver
+# and printserver as well as any other host name and address.
+#
+# The format of this file is:
+# Internet Address	Hostname	# Comments
+# Internet Address can be either IPv4 or IPv6 address.
+# Items are separated by any number of blanks and/or tabs.  A '#'
+# indicates the beginning of a comment; characters up to the end of the
+# line are not interpreted by routines which search this file.  Blank
+# lines are allowed.
+
+# Internet Address	Hostname	# Comments
+# 192.9.200.1     	net0sample	# ethernet name/address
+# 128.100.0.1		token0sample	# token ring name/address
+# 10.2.0.2		x25sample	# x.25 name/address
+# 2000:1:1:1:209:6bff:feee:2b7f		ipv6sample	# ipv6 name/address
+127.0.0.1		loopback localhost	# loopback (lo0) name/address
+::1			loopback localhost	# IPv6 loopback (lo0) name/address
+172.16.53.199	win-way
+
+..2-1.. Seperator=, Pos=75, buf=152318;XA1002;T;win-way;1010.Start-1;CronGroup;1010.Start Process;Begin-1
+
+..3.. len=74, Pos=75, S=, buf=152318;XA1002;T;win-way;1010.Start-1;CronGroup;1010.Start Process;Begin-1
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-1;CronGroup;1010.Start Process;Begin-1
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=M_PROLOG_BEGIN_TAG 
+# This is an automatically generated prolog. 
+#  
+# bos61D src/bos/usr/sbin/netstart/hosts 1.2 
+#  
+# Licensed Materials - Property of IBM 
+#  
+# COPYRIGHT International Business Machines Corp. 1985,1989 
+# All Rights Reserved 
+#  
+# US Government Users Restricted Rights - Use, duplication or 
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp. 
+#  
+# @(#)47	1.2  src/bos/usr/sbin/netstart/hosts, cmdnet, bos61D, d2007_49A2 10/1/07 13:57:52
+# IBM_PROLOG_END_TAG 
+# 
+# COMPONENT_NAME: TCPIP hosts
+# 
+# FUNCTIONS: loopback 
+#
+# ORIGINS: 26  27 
+#
+# (C) COPYRIGHT International Business Machines Corp. 1985, 1989
+# All Rights Reserved
+# Licensed Materials - Property of IBM
+#
+# US Government Users Restricted Rights - Use, duplication or
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+#
+#  /etc/hosts
+#
+# This file contains the hostnames and their address for hosts in the
+# network.  This file is used to resolve a hostname into an Internet
+# address.  
+#
+# At minimum, this file must contain the name and address for each
+# device defined for TCP in your /etc/net file.  It may also contain
+# entries for well-known (reserved) names such as timeserver
+# and printserver as well as any other host name and address.
+#
+# The format of this file is:
+# Internet Address	Hostname	# Comments
+# Internet Address can be either IPv4 or IPv6 address.
+# Items are separated by any number of blanks and/or tabs.  A '#'
+# indicates the beginning of a comment; characters up to the end of the
+# line are not interpreted by routines which search this file.  Blank
+# lines are allowed.
+
+# Internet Address	Hostname	# Comments
+# 192.9.200.1     	net0sample	# ethernet name/address
+# 128.100.0.1		token0sample	# token ring name/address
+# 10.2.0.2		x25sample	# x.25 name/address
+# 2000:1:1:1:209:6bff:feee:2b7f		ipv6sample	# ipv6 name/address
+127.0.0.1		loopback localhost	# loopback (lo0) name/address
+::1			loopback localhost	# IPv6 loopback (lo0) name/address
+172.16.53.199	win-way
+
+..2.. rdsz=75, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-2;CronGroup;1010.Start Process;Begin-2
+61D src/bos/usr/sbin/netstart/hosts 1.2 
+#  
+# Licensed Materials - Property of IBM 
+#  
+# COPYRIGHT International Business Machines Corp. 1985,1989 
+# All Rights Reserved 
+#  
+# US Government Users Restricted Rights - Use, duplication or 
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp. 
+#  
+# @(#)47	1.2  src/bos/usr/sbin/netstart/hosts, cmdnet, bos61D, d2007_49A2 10/1/07 13:57:52
+# IBM_PROLOG_END_TAG 
+# 
+# COMPONENT_NAME: TCPIP hosts
+# 
+# FUNCTIONS: loopback 
+#
+# ORIGINS: 26  27 
+#
+# (C) COPYRIGHT International Business Machines Corp. 1985, 1989
+# All Rights Reserved
+# Licensed Materials - Property of IBM
+#
+# US Government Users Restricted Rights - Use, duplication or
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+#
+#  /etc/hosts
+#
+# This file contains the hostnames and their address for hosts in the
+# network.  This file is used to resolve a hostname into an Internet
+# address.  
+#
+# At minimum, this file must contain the name and address for each
+# device defined for TCP in your /etc/net file.  It may also contain
+# entries for well-known (reserved) names such as timeserver
+# and printserver as well as any other host name and address.
+#
+# The format of this file is:
+# Internet Address	Hostname	# Comments
+# Internet Address can be either IPv4 or IPv6 address.
+# Items are separated by any number of blanks and/or tabs.  A '#'
+# indicates the beginning of a comment; characters up to the end of the
+# line are not interpreted by routines which search this file.  Blank
+# lines are allowed.
+
+# Internet Address	Hostname	# Comments
+# 192.9.200.1     	net0sample	# ethernet name/address
+# 128.100.0.1		token0sample	# token ring name/address
+# 10.2.0.2		x25sample	# x.25 name/address
+# 2000:1:1:1:209:6bff:feee:2b7f		ipv6sample	# ipv6 name/address
+127.0.0.1		loopback localhost	# loopback (lo0) name/address
+::1			loopback localhost	# IPv6 loopback (lo0) name/address
+172.16.53.199	win-way
+
+..2-1.. Seperator=, Pos=75, buf=152318;XA1002;T;win-way;1010.Start-2;CronGroup;1010.Start Process;Begin-2
+
+..3.. len=74, Pos=75, S=, buf=152318;XA1002;T;win-way;1010.Start-2;CronGroup;1010.Start Process;Begin-2
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-2;CronGroup;1010.Start Process;Begin-2
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=75, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-3;CronGroup;1010.Start Process;Begin-3
+
+..2-1.. Seperator=, Pos=75, buf=152318;XA1002;T;win-way;1010.Start-3;CronGroup;1010.Start Process;Begin-3
+
+..3.. len=74, Pos=75, S=, buf=152318;XA1002;T;win-way;1010.Start-3;CronGroup;1010.Start Process;Begin-3
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-3;CronGroup;1010.Start Process;Begin-3
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=75, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-4;CronGroup;1010.Start Process;Begin-4
+
+..2-1.. Seperator=, Pos=75, buf=152318;XA1002;T;win-way;1010.Start-4;CronGroup;1010.Start Process;Begin-4
+
+..3.. len=74, Pos=75, S=, buf=152318;XA1002;T;win-way;1010.Start-4;CronGroup;1010.Start Process;Begin-4
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-4;CronGroup;1010.Start Process;Begin-4
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=75, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-5;CronGroup;1010.Start Process;Begin-5
+
+..2-1.. Seperator=, Pos=75, buf=152318;XA1002;T;win-way;1010.Start-5;CronGroup;1010.Start Process;Begin-5
+
+..3.. len=74, Pos=75, S=, buf=152318;XA1002;T;win-way;1010.Start-5;CronGroup;1010.Start Process;Begin-5
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-5;CronGroup;1010.Start Process;Begin-5
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=75, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-6;CronGroup;1010.Start Process;Begin-6
+
+..2-1.. Seperator=, Pos=75, buf=152318;XA1002;T;win-way;1010.Start-6;CronGroup;1010.Start Process;Begin-6
+
+..3.. len=74, Pos=75, S=, buf=152318;XA1002;T;win-way;1010.Start-6;CronGroup;1010.Start Process;Begin-6
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-6;CronGroup;1010.Start Process;Begin-6
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=75, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-7;CronGroup;1010.Start Process;Begin-7
+
+..2-1.. Seperator=, Pos=75, buf=152318;XA1002;T;win-way;1010.Start-7;CronGroup;1010.Start Process;Begin-7
+
+..3.. len=74, Pos=75, S=, buf=152318;XA1002;T;win-way;1010.Start-7;CronGroup;1010.Start Process;Begin-7
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-7;CronGroup;1010.Start Process;Begin-7
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=75, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-8;CronGroup;1010.Start Process;Begin-8
+
+..2-1.. Seperator=, Pos=75, buf=152318;XA1002;T;win-way;1010.Start-8;CronGroup;1010.Start Process;Begin-8
+
+..3.. len=74, Pos=75, S=, buf=152318;XA1002;T;win-way;1010.Start-8;CronGroup;1010.Start Process;Begin-8
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-8;CronGroup;1010.Start Process;Begin-8
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=75, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-9;CronGroup;1010.Start Process;Begin-9
+
+..2-1.. Seperator=, Pos=75, buf=152318;XA1002;T;win-way;1010.Start-9;CronGroup;1010.Start Process;Begin-9
+
+..3.. len=74, Pos=75, S=, buf=152318;XA1002;T;win-way;1010.Start-9;CronGroup;1010.Start Process;Begin-9
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-9;CronGroup;1010.Start Process;Begin-9
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-10;CronGroup;1010.Start Process;Begin-10
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-10;CronGroup;1010.Start Process;Begin-10
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-10;CronGroup;1010.Start Process;Begin-10
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-10;CronGroup;1010.Start Process;Begin-10
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-11;CronGroup;1010.Start Process;Begin-11
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-11;CronGroup;1010.Start Process;Begin-11
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-11;CronGroup;1010.Start Process;Begin-11
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-11;CronGroup;1010.Start Process;Begin-11
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-12;CronGroup;1010.Start Process;Begin-12
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-12;CronGroup;1010.Start Process;Begin-12
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-12;CronGroup;1010.Start Process;Begin-12
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-12;CronGroup;1010.Start Process;Begin-12
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-13;CronGroup;1010.Start Process;Begin-13
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-13;CronGroup;1010.Start Process;Begin-13
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-13;CronGroup;1010.Start Process;Begin-13
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-13;CronGroup;1010.Start Process;Begin-13
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-14;CronGroup;1010.Start Process;Begin-14
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-14;CronGroup;1010.Start Process;Begin-14
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-14;CronGroup;1010.Start Process;Begin-14
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-14;CronGroup;1010.Start Process;Begin-14
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-15;CronGroup;1010.Start Process;Begin-15
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-15;CronGroup;1010.Start Process;Begin-15
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-15;CronGroup;1010.Start Process;Begin-15
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-15;CronGroup;1010.Start Process;Begin-15
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-16;CronGroup;1010.Start Process;Begin-16
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-16;CronGroup;1010.Start Process;Begin-16
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-16;CronGroup;1010.Start Process;Begin-16
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-16;CronGroup;1010.Start Process;Begin-16
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-17;CronGroup;1010.Start Process;Begin-17
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-17;CronGroup;1010.Start Process;Begin-17
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-17;CronGroup;1010.Start Process;Begin-17
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-17;CronGroup;1010.Start Process;Begin-17
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-18;CronGroup;1010.Start Process;Begin-18
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-18;CronGroup;1010.Start Process;Begin-18
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-18;CronGroup;1010.Start Process;Begin-18
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-18;CronGroup;1010.Start Process;Begin-18
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-19;CronGroup;1010.Start Process;Begin-19
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-19;CronGroup;1010.Start Process;Begin-19
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-19;CronGroup;1010.Start Process;Begin-19
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-19;CronGroup;1010.Start Process;Begin-19
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-20;CronGroup;1010.Start Process;Begin-20
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-20;CronGroup;1010.Start Process;Begin-20
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-20;CronGroup;1010.Start Process;Begin-20
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-20;CronGroup;1010.Start Process;Begin-20
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-21;CronGroup;1010.Start Process;Begin-21
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-21;CronGroup;1010.Start Process;Begin-21
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-21;CronGroup;1010.Start Process;Begin-21
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-21;CronGroup;1010.Start Process;Begin-21
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-22;CronGroup;1010.Start Process;Begin-22
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-22;CronGroup;1010.Start Process;Begin-22
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-22;CronGroup;1010.Start Process;Begin-22
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-22;CronGroup;1010.Start Process;Begin-22
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-23;CronGroup;1010.Start Process;Begin-23
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-23;CronGroup;1010.Start Process;Begin-23
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-23;CronGroup;1010.Start Process;Begin-23
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-23;CronGroup;1010.Start Process;Begin-23
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-24;CronGroup;1010.Start Process;Begin-24
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-24;CronGroup;1010.Start Process;Begin-24
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-24;CronGroup;1010.Start Process;Begin-24
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-24;CronGroup;1010.Start Process;Begin-24
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-25;CronGroup;1010.Start Process;Begin-25
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-25;CronGroup;1010.Start Process;Begin-25
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-25;CronGroup;1010.Start Process;Begin-25
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-25;CronGroup;1010.Start Process;Begin-25
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-26;CronGroup;1010.Start Process;Begin-26
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-26;CronGroup;1010.Start Process;Begin-26
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-26;CronGroup;1010.Start Process;Begin-26
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-26;CronGroup;1010.Start Process;Begin-26
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-27;CronGroup;1010.Start Process;Begin-27
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-27;CronGroup;1010.Start Process;Begin-27
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-27;CronGroup;1010.Start Process;Begin-27
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-27;CronGroup;1010.Start Process;Begin-27
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-28;CronGroup;1010.Start Process;Begin-28
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-28;CronGroup;1010.Start Process;Begin-28
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-28;CronGroup;1010.Start Process;Begin-28
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-28;CronGroup;1010.Start Process;Begin-28
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-30;CronGroup;1010.Start Process;Begin-30
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-30;CronGroup;1010.Start Process;Begin-30
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-30;CronGroup;1010.Start Process;Begin-30
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-30;CronGroup;1010.Start Process;Begin-30
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-29;CronGroup;1010.Start Process;Begin-29
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-29;CronGroup;1010.Start Process;Begin-29
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-29;CronGroup;1010.Start Process;Begin-29
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-29;CronGroup;1010.Start Process;Begin-29
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-31;CronGroup;1010.Start Process;Begin-31
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-31;CronGroup;1010.Start Process;Begin-31
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-31;CronGroup;1010.Start Process;Begin-31
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-31;CronGroup;1010.Start Process;Begin-31
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=16:43:18 
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-34;CronGroup;1010.Start Process;Begin-34
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-34;CronGroup;1010.Start Process;Begin-34
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-34;CronGroup;1010.Start Process;Begin-34
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-34;CronGroup;1010.Start Process;Begin-34
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-35;CronGroup;1010.Start Process;Begin-35
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-35;CronGroup;1010.Start Process;Begin-35
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-35;CronGroup;1010.Start Process;Begin-35
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-35;CronGroup;1010.Start Process;Begin-35
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=0
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-36;CronGroup;1010.Start Process;Begin-36
+ˇˇˇ152318.000
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-36;CronGroup;1010.Start Process;Begin-36
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-36;CronGroup;1010.Start Process;Begin-36
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-36;CronGroup;1010.Start Process;Begin-36
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-37;CronGroup;1010.Start Process;Begin-37
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-37;CronGroup;1010.Start Process;Begin-37
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-37;CronGroup;1010.Start Process;Begin-37
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-37;CronGroup;1010.Start Process;Begin-37
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=16:43:18 
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-38;CronGroup;1010.Start Process;Begin-38
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-38;CronGroup;1010.Start Process;Begin-38
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-38;CronGroup;1010.Start Process;Begin-38
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-38;CronGroup;1010.Start Process;Begin-38
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-39;CronGroup;1010.Start Process;Begin-39
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-39;CronGroup;1010.Start Process;Begin-39
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-39;CronGroup;1010.Start Process;Begin-39
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-39;CronGroup;1010.Start Process;Begin-39
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-40;CronGroup;1010.Start Process;Begin-40
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-40;CronGroup;1010.Start Process;Begin-40
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-40;CronGroup;1010.Start Process;Begin-40
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-40;CronGroup;1010.Start Process;Begin-40
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-41;CronGroup;1010.Start Process;Begin-41
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-41;CronGroup;1010.Start Process;Begin-41
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-41;CronGroup;1010.Start Process;Begin-41
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-41;CronGroup;1010.Start Process;Begin-41
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-42;CronGroup;1010.Start Process;Begin-42
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-42;CronGroup;1010.Start Process;Begin-42
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-42;CronGroup;1010.Start Process;Begin-42
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-42;CronGroup;1010.Start Process;Begin-42
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-43;CronGroup;1010.Start Process;Begin-43
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-43;CronGroup;1010.Start Process;Begin-43
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-43;CronGroup;1010.Start Process;Begin-43
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-43;CronGroup;1010.Start Process;Begin-43
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-44;CronGroup;1010.Start Process;Begin-44
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-44;CronGroup;1010.Start Process;Begin-44
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-44;CronGroup;1010.Start Process;Begin-44
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-44;CronGroup;1010.Start Process;Begin-44
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-45;CronGroup;1010.Start Process;Begin-45
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-45;CronGroup;1010.Start Process;Begin-45
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-45;CronGroup;1010.Start Process;Begin-45
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-45;CronGroup;1010.Start Process;Begin-45
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-46;CronGroup;1010.Start Process;Begin-46
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-46;CronGroup;1010.Start Process;Begin-46
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-46;CronGroup;1010.Start Process;Begin-46
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-46;CronGroup;1010.Start Process;Begin-46
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=16:43:19 SvrListen...(12)
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-65;CronGroup;1010.Start Process;Begin-65
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-65;CronGroup;1010.Start Process;Begin-65
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-65;CronGroup;1010.Start Process;Begin-65
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-65;CronGroup;1010.Start Process;Begin-65
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-66;CronGroup;1010.Start Process;Begin-66
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-66;CronGroup;1010.Start Process;Begin-66
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-66;CronGroup;1010.Start Process;Begin-66
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-66;CronGroup;1010.Start Process;Begin-66
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-67;CronGroup;1010.Start Process;Begin-67
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-67;CronGroup;1010.Start Process;Begin-67
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-67;CronGroup;1010.Start Process;Begin-67
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-67;CronGroup;1010.Start Process;Begin-67
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-68;CronGroup;1010.Start Process;Begin-68
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-68;CronGroup;1010.Start Process;Begin-68
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-68;CronGroup;1010.Start Process;Begin-68
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-68;CronGroup;1010.Start Process;Begin-68
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-69;CronGroup;1010.Start Process;Begin-69
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-69;CronGroup;1010.Start Process;Begin-69
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-69;CronGroup;1010.Start Process;Begin-69
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-69;CronGroup;1010.Start Process;Begin-69
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-70;CronGroup;1010.Start Process;Begin-70
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-70;CronGroup;1010.Start Process;Begin-70
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-70;CronGroup;1010.Start Process;Begin-70
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-70;CronGroup;1010.Start Process;Begin-70
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-48;CronGroup;1010.Start Process;Begin-48
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-48;CronGroup;1010.Start Process;Begin-48
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-48;CronGroup;1010.Start Process;Begin-48
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-48;CronGroup;1010.Start Process;Begin-48
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=Ò‚ΩP E®
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-49;CronGroup;1010.Start Process;Begin-49
+	ö0
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-49;CronGroup;1010.Start Process;Begin-49
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-49;CronGroup;1010.Start Process;Begin-49
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-49;CronGroup;1010.Start Process;Begin-49
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-50;CronGroup;1010.Start Process;Begin-50
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-50;CronGroup;1010.Start Process;Begin-50
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-50;CronGroup;1010.Start Process;Begin-50
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-50;CronGroup;1010.Start Process;Begin-50
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-52;CronGroup;1010.Start Process;Begin-52
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-52;CronGroup;1010.Start Process;Begin-52
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-52;CronGroup;1010.Start Process;Begin-52
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-52;CronGroup;1010.Start Process;Begin-52
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-53;CronGroup;1010.Start Process;Begin-53
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-53;CronGroup;1010.Start Process;Begin-53
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-53;CronGroup;1010.Start Process;Begin-53
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-53;CronGroup;1010.Start Process;Begin-53
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-54;CronGroup;1010.Start Process;Begin-54
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-54;CronGroup;1010.Start Process;Begin-54
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-54;CronGroup;1010.Start Process;Begin-54
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-54;CronGroup;1010.Start Process;Begin-54
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-56;CronGroup;1010.Start Process;Begin-56
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-56;CronGroup;1010.Start Process;Begin-56
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-56;CronGroup;1010.Start Process;Begin-56
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-56;CronGroup;1010.Start Process;Begin-56
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-59;CronGroup;1010.Start Process;Begin-59
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-59;CronGroup;1010.Start Process;Begin-59
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-59;CronGroup;1010.Start Process;Begin-59
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-59;CronGroup;1010.Start Process;Begin-59
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-60;CronGroup;1010.Start Process;Begin-60
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-60;CronGroup;1010.Start Process;Begin-60
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-60;CronGroup;1010.Start Process;Begin-60
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-60;CronGroup;1010.Start Process;Begin-60
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-62;CronGroup;1010.Start Process;Begin-62
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-62;CronGroup;1010.Start Process;Begin-62
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-62;CronGroup;1010.Start Process;Begin-62
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-62;CronGroup;1010.Start Process;Begin-62
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-63;CronGroup;1010.Start Process;Begin-63
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-63;CronGroup;1010.Start Process;Begin-63
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-63;CronGroup;1010.Start Process;Begin-63
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-63;CronGroup;1010.Start Process;Begin-63
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-64;CronGroup;1010.Start Process;Begin-64
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-64;CronGroup;1010.Start Process;Begin-64
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-64;CronGroup;1010.Start Process;Begin-64
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-64;CronGroup;1010.Start Process;Begin-64
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=16:43:20 
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-80;CronGroup;1010.Start Process;Begin-80
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-80;CronGroup;1010.Start Process;Begin-80
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-80;CronGroup;1010.Start Process;Begin-80
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-80;CronGroup;1010.Start Process;Begin-80
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-81;CronGroup;1010.Start Process;Begin-81
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-81;CronGroup;1010.Start Process;Begin-81
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-81;CronGroup;1010.Start Process;Begin-81
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-81;CronGroup;1010.Start Process;Begin-81
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf= ‡‘ ‚ ‚t[[
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-82;CronGroup;1010.Start Process;Begin-82
+ˇˇˇCronGroup
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-82;CronGroup;1010.Start Process;Begin-82
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-82;CronGroup;1010.Start Process;Begin-82
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-82;CronGroup;1010.Start Process;Begin-82
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-83;CronGroup;1010.Start Process;Begin-83
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-83;CronGroup;1010.Start Process;Begin-83
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-83;CronGroup;1010.Start Process;Begin-83
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-83;CronGroup;1010.Start Process;Begin-83
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-84;CronGroup;1010.Start Process;Begin-84
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-84;CronGroup;1010.Start Process;Begin-84
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-84;CronGroup;1010.Start Process;Begin-84
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-84;CronGroup;1010.Start Process;Begin-84
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-85;CronGroup;1010.Start Process;Begin-85
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-85;CronGroup;1010.Start Process;Begin-85
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-85;CronGroup;1010.Start Process;Begin-85
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-85;CronGroup;1010.Start Process;Begin-85
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=Ò‚ΩP 8ò
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-74;CronGroup;1010.Start Process;Begin-74
+	Õ
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-74;CronGroup;1010.Start Process;Begin-74
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-74;CronGroup;1010.Start Process;Begin-74
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-74;CronGroup;1010.Start Process;Begin-74
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-77;CronGroup;1010.Start Process;Begin-77
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-77;CronGroup;1010.Start Process;Begin-77
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-77;CronGroup;1010.Start Process;Begin-77
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-77;CronGroup;1010.Start Process;Begin-77
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-94;CronGroup;1010.Start Process;Begin-94
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-94;CronGroup;1010.Start Process;Begin-94
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-94;CronGroup;1010.Start Process;Begin-94
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-94;CronGroup;1010.Start Process;Begin-94
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=172.16.53.199:35849
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-95;CronGroup;1010.Start Process;Begin-95
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-95;CronGroup;1010.Start Process;Begin-95
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-95;CronGroup;1010.Start Process;Begin-95
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-95;CronGroup;1010.Start Process;Begin-95
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-96;CronGroup;1010.Start Process;Begin-96
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-96;CronGroup;1010.Start Process;Begin-96
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-96;CronGroup;1010.Start Process;Begin-96
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-96;CronGroup;1010.Start Process;Begin-96
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-97;CronGroup;1010.Start Process;Begin-97
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-97;CronGroup;1010.Start Process;Begin-97
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-97;CronGroup;1010.Start Process;Begin-97
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-97;CronGroup;1010.Start Process;Begin-97
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-98;CronGroup;1010.Start Process;Begin-98
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-98;CronGroup;1010.Start Process;Begin-98
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-98;CronGroup;1010.Start Process;Begin-98
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-98;CronGroup;1010.Start Process;Begin-98
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-99;CronGroup;1010.Start Process;Begin-99
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-99;CronGroup;1010.Start Process;Begin-99
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-99;CronGroup;1010.Start Process;Begin-99
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-99;CronGroup;1010.Start Process;Begin-99
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-79;CronGroup;1010.Start Process;Begin-79
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-79;CronGroup;1010.Start Process;Begin-79
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-79;CronGroup;1010.Start Process;Begin-79
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-79;CronGroup;1010.Start Process;Begin-79
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=16:43:21 
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-112;CronGroup;1010.Start Process;Begin-112
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-112;CronGroup;1010.Start Process;Begin-112
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-112;CronGroup;1010.Start Process;Begin-112
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-112;CronGroup;1010.Start Process;Begin-112
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=1010.Start Process-∏s≤’∂}©l!
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-89;CronGroup;1010.Start Process;Begin-89
+                                                                                                                                                                   
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-89;CronGroup;1010.Start Process;Begin-89
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-89;CronGroup;1010.Start Process;Begin-89
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-89;CronGroup;1010.Start Process;Begin-89
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-91;CronGroup;1010.Start Process;Begin-91
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-91;CronGroup;1010.Start Process;Begin-91
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-91;CronGroup;1010.Start Process;Begin-91
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-91;CronGroup;1010.Start Process;Begin-91
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=16:43:20 LinkReady
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-122;CronGroup;1010.Start Process;Begin-122
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-122;CronGroup;1010.Start Process;Begin-122
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-122;CronGroup;1010.Start Process;Begin-122
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-122;CronGroup;1010.Start Process;Begin-122
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=16:43:20 LinkReady
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-123;CronGroup;1010.Start Process;Begin-123
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-123;CronGroup;1010.Start Process;Begin-123
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-123;CronGroup;1010.Start Process;Begin-123
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-123;CronGroup;1010.Start Process;Begin-123
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-124;CronGroup;1010.Start Process;Begin-124
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-124;CronGroup;1010.Start Process;Begin-124
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-124;CronGroup;1010.Start Process;Begin-124
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-124;CronGroup;1010.Start Process;Begin-124
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-125;CronGroup;1010.Start Process;Begin-125
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-125;CronGroup;1010.Start Process;Begin-125
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-125;CronGroup;1010.Start Process;Begin-125
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-125;CronGroup;1010.Start Process;Begin-125
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-126;CronGroup;1010.Start Process;Begin-126
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-126;CronGroup;1010.Start Process;Begin-126
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-126;CronGroup;1010.Start Process;Begin-126
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-126;CronGroup;1010.Start Process;Begin-126
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-103;CronGroup;1010.Start Process;Begin-103
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-103;CronGroup;1010.Start Process;Begin-103
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-103;CronGroup;1010.Start Process;Begin-103
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-103;CronGroup;1010.Start Process;Begin-103
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-104;CronGroup;1010.Start Process;Begin-104
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-104;CronGroup;1010.Start Process;Begin-104
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-104;CronGroup;1010.Start Process;Begin-104
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-104;CronGroup;1010.Start Process;Begin-104
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-105;CronGroup;1010.Start Process;Begin-105
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-105;CronGroup;1010.Start Process;Begin-105
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-105;CronGroup;1010.Start Process;Begin-105
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-105;CronGroup;1010.Start Process;Begin-105
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf= 	öúE
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-107;CronGroup;1010.Start Process;Begin-107
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-107;CronGroup;1010.Start Process;Begin-107
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-107;CronGroup;1010.Start Process;Begin-107
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-107;CronGroup;1010.Start Process;Begin-107
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-109;CronGroup;1010.Start Process;Begin-109
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-109;CronGroup;1010.Start Process;Begin-109
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-109;CronGroup;1010.Start Process;Begin-109
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-109;CronGroup;1010.Start Process;Begin-109
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-110;CronGroup;1010.Start Process;Begin-110
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-110;CronGroup;1010.Start Process;Begin-110
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-110;CronGroup;1010.Start Process;Begin-110
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-110;CronGroup;1010.Start Process;Begin-110
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-111;CronGroup;1010.Start Process;Begin-111
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-111;CronGroup;1010.Start Process;Begin-111
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-111;CronGroup;1010.Start Process;Begin-111
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-111;CronGroup;1010.Start Process;Begin-111
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=16:43:23 
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-117;CronGroup;1010.Start Process;Begin-117
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-117;CronGroup;1010.Start Process;Begin-117
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-117;CronGroup;1010.Start Process;Begin-117
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-117;CronGroup;1010.Start Process;Begin-117
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-118;CronGroup;1010.Start Process;Begin-118
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-118;CronGroup;1010.Start Process;Begin-118
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-118;CronGroup;1010.Start Process;Begin-118
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-118;CronGroup;1010.Start Process;Begin-118
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-119;CronGroup;1010.Start Process;Begin-119
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-119;CronGroup;1010.Start Process;Begin-119
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-119;CronGroup;1010.Start Process;Begin-119
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-119;CronGroup;1010.Start Process;Begin-119
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-140;CronGroup;1010.Start Process;Begin-140
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-140;CronGroup;1010.Start Process;Begin-140
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-140;CronGroup;1010.Start Process;Begin-140
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-140;CronGroup;1010.Start Process;Begin-140
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-141;CronGroup;1010.Start Process;Begin-141
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-141;CronGroup;1010.Start Process;Begin-141
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-141;CronGroup;1010.Start Process;Begin-141
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-141;CronGroup;1010.Start Process;Begin-141
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=16:43:23 
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-142;CronGroup;1010.Start Process;Begin-142
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-142;CronGroup;1010.Start Process;Begin-142
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-142;CronGroup;1010.Start Process;Begin-142
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-142;CronGroup;1010.Start Process;Begin-142
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=16:43:24 SvrListen...(12)
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-130;CronGroup;1010.Start Process;Begin-130
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-130;CronGroup;1010.Start Process;Begin-130
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-130;CronGroup;1010.Start Process;Begin-130
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-130;CronGroup;1010.Start Process;Begin-130
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=Ò‚ΩP _Ël:17
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-132;CronGroup;1010.Start Process;Begin-132
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-132;CronGroup;1010.Start Process;Begin-132
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-132;CronGroup;1010.Start Process;Begin-132
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-132;CronGroup;1010.Start Process;Begin-132
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-149;CronGroup;1010.Start Process;Begin-149
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-149;CronGroup;1010.Start Process;Begin-149
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-149;CronGroup;1010.Start Process;Begin-149
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-149;CronGroup;1010.Start Process;Begin-149
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=CronGroup
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-150;CronGroup;1010.Start Process;Begin-150
+             [[
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-150;CronGroup;1010.Start Process;Begin-150
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-150;CronGroup;1010.Start Process;Begin-150
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-150;CronGroup;1010.Start Process;Begin-150
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=XA1002
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-151;CronGroup;1010.Start Process;Begin-151
+     
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-151;CronGroup;1010.Start Process;Begin-151
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-151;CronGroup;1010.Start Process;Begin-151
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-151;CronGroup;1010.Start Process;Begin-151
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-152;CronGroup;1010.Start Process;Begin-152
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-152;CronGroup;1010.Start Process;Begin-152
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-152;CronGroup;1010.Start Process;Begin-152
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-152;CronGroup;1010.Start Process;Begin-152
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-153;CronGroup;1010.Start Process;Begin-153
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-153;CronGroup;1010.Start Process;Begin-153
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-153;CronGroup;1010.Start Process;Begin-153
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-153;CronGroup;1010.Start Process;Begin-153
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-154;CronGroup;1010.Start Process;Begin-154
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-154;CronGroup;1010.Start Process;Begin-154
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-154;CronGroup;1010.Start Process;Begin-154
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-154;CronGroup;1010.Start Process;Begin-154
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-133;CronGroup;1010.Start Process;Begin-133
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-133;CronGroup;1010.Start Process;Begin-133
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-133;CronGroup;1010.Start Process;Begin-133
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-133;CronGroup;1010.Start Process;Begin-133
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=172.16.53.199:38648,Local:172.16.53.199:7806
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-134;CronGroup;1010.Start Process;Begin-134
+ˇQ
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-134;CronGroup;1010.Start Process;Begin-134
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-134;CronGroup;1010.Start Process;Begin-134
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-134;CronGroup;1010.Start Process;Begin-134
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=1010.Start Process-∏s≤’∂}©l!
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-137;CronGroup;1010.Start Process;Begin-137
+                                                                                                                                                                 
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-137;CronGroup;1010.Start Process;Begin-137
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-137;CronGroup;1010.Start Process;Begin-137
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-137;CronGroup;1010.Start Process;Begin-137
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-138;CronGroup;1010.Start Process;Begin-138
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-138;CronGroup;1010.Start Process;Begin-138
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-138;CronGroup;1010.Start Process;Begin-138
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-138;CronGroup;1010.Start Process;Begin-138
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-139;CronGroup;1010.Start Process;Begin-139
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-139;CronGroup;1010.Start Process;Begin-139
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-139;CronGroup;1010.Start Process;Begin-139
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-139;CronGroup;1010.Start Process;Begin-139
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=Ò‚ΩP Å(
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-146;CronGroup;1010.Start Process;Begin-146
+Ä
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-146;CronGroup;1010.Start Process;Begin-146
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-146;CronGroup;1010.Start Process;Begin-146
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-146;CronGroup;1010.Start Process;Begin-146
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-147;CronGroup;1010.Start Process;Begin-147
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-147;CronGroup;1010.Start Process;Begin-147
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-147;CronGroup;1010.Start Process;Begin-147
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-147;CronGroup;1010.Start Process;Begin-147
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-148;CronGroup;1010.Start Process;Begin-148
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-148;CronGroup;1010.Start Process;Begin-148
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-148;CronGroup;1010.Start Process;Begin-148
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-148;CronGroup;1010.Start Process;Begin-148
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-168;CronGroup;1010.Start Process;Begin-168
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-168;CronGroup;1010.Start Process;Begin-168
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-168;CronGroup;1010.Start Process;Begin-168
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-168;CronGroup;1010.Start Process;Begin-168
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-169;CronGroup;1010.Start Process;Begin-169
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-169;CronGroup;1010.Start Process;Begin-169
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-169;CronGroup;1010.Start Process;Begin-169
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-169;CronGroup;1010.Start Process;Begin-169
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-170;CronGroup;1010.Start Process;Begin-170
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-170;CronGroup;1010.Start Process;Begin-170
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-170;CronGroup;1010.Start Process;Begin-170
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-170;CronGroup;1010.Start Process;Begin-170
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-171;CronGroup;1010.Start Process;Begin-171
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-171;CronGroup;1010.Start Process;Begin-171
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-171;CronGroup;1010.Start Process;Begin-171
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-171;CronGroup;1010.Start Process;Begin-171
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-172;CronGroup;1010.Start Process;Begin-172
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-172;CronGroup;1010.Start Process;Begin-172
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-172;CronGroup;1010.Start Process;Begin-172
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-172;CronGroup;1010.Start Process;Begin-172
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-173;CronGroup;1010.Start Process;Begin-173
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-173;CronGroup;1010.Start Process;Begin-173
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-173;CronGroup;1010.Start Process;Begin-173
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-173;CronGroup;1010.Start Process;Begin-173
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-174;CronGroup;1010.Start Process;Begin-174
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-174;CronGroup;1010.Start Process;Begin-174
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-174;CronGroup;1010.Start Process;Begin-174
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-174;CronGroup;1010.Start Process;Begin-174
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=77, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-93;CronGroup;1010.Start Process;Begin-93
+
+..2-1.. Seperator=, Pos=77, buf=152318;XA1002;T;win-way;1010.Start-93;CronGroup;1010.Start Process;Begin-93
+
+..3.. len=76, Pos=77, S=, buf=152318;XA1002;T;win-way;1010.Start-93;CronGroup;1010.Start Process;Begin-93
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-93;CronGroup;1010.Start Process;Begin-93
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-156;CronGroup;1010.Start Process;Begin-156
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-156;CronGroup;1010.Start Process;Begin-156
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-156;CronGroup;1010.Start Process;Begin-156
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-156;CronGroup;1010.Start Process;Begin-156
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-158;CronGroup;1010.Start Process;Begin-158
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-158;CronGroup;1010.Start Process;Begin-158
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-158;CronGroup;1010.Start Process;Begin-158
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-158;CronGroup;1010.Start Process;Begin-158
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-159;CronGroup;1010.Start Process;Begin-159
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-159;CronGroup;1010.Start Process;Begin-159
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-159;CronGroup;1010.Start Process;Begin-159
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-159;CronGroup;1010.Start Process;Begin-159
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-160;CronGroup;1010.Start Process;Begin-160
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-160;CronGroup;1010.Start Process;Begin-160
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-160;CronGroup;1010.Start Process;Begin-160
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-160;CronGroup;1010.Start Process;Begin-160
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-163;CronGroup;1010.Start Process;Begin-163
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-163;CronGroup;1010.Start Process;Begin-163
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-163;CronGroup;1010.Start Process;Begin-163
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-163;CronGroup;1010.Start Process;Begin-163
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-164;CronGroup;1010.Start Process;Begin-164
+                                                                                                                                                                                                 
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-164;CronGroup;1010.Start Process;Begin-164
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-164;CronGroup;1010.Start Process;Begin-164
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-164;CronGroup;1010.Start Process;Begin-164
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-165;CronGroup;1010.Start Process;Begin-165
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-165;CronGroup;1010.Start Process;Begin-165
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-165;CronGroup;1010.Start Process;Begin-165
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-165;CronGroup;1010.Start Process;Begin-165
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-189;CronGroup;1010.Start Process;Begin-189
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-189;CronGroup;1010.Start Process;Begin-189
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-189;CronGroup;1010.Start Process;Begin-189
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-189;CronGroup;1010.Start Process;Begin-189
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-190;CronGroup;1010.Start Process;Begin-190
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-190;CronGroup;1010.Start Process;Begin-190
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-190;CronGroup;1010.Start Process;Begin-190
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-190;CronGroup;1010.Start Process;Begin-190
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-191;CronGroup;1010.Start Process;Begin-191
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-191;CronGroup;1010.Start Process;Begin-191
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-191;CronGroup;1010.Start Process;Begin-191
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-191;CronGroup;1010.Start Process;Begin-191
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-192;CronGroup;1010.Start Process;Begin-192
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-192;CronGroup;1010.Start Process;Begin-192
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-192;CronGroup;1010.Start Process;Begin-192
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-192;CronGroup;1010.Start Process;Begin-192
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-121;CronGroup;1010.Start Process;Begin-121
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-121;CronGroup;1010.Start Process;Begin-121
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-121;CronGroup;1010.Start Process;Begin-121
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-121;CronGroup;1010.Start Process;Begin-121
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-177;CronGroup;1010.Start Process;Begin-177
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-177;CronGroup;1010.Start Process;Begin-177
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-177;CronGroup;1010.Start Process;Begin-177
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-177;CronGroup;1010.Start Process;Begin-177
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-179;CronGroup;1010.Start Process;Begin-179
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-179;CronGroup;1010.Start Process;Begin-179
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-179;CronGroup;1010.Start Process;Begin-179
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-179;CronGroup;1010.Start Process;Begin-179
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-182;CronGroup;1010.Start Process;Begin-182
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-182;CronGroup;1010.Start Process;Begin-182
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-182;CronGroup;1010.Start Process;Begin-182
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-182;CronGroup;1010.Start Process;Begin-182
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-183;CronGroup;1010.Start Process;Begin-183
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-183;CronGroup;1010.Start Process;Begin-183
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-183;CronGroup;1010.Start Process;Begin-183
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-183;CronGroup;1010.Start Process;Begin-183
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-184;CronGroup;1010.Start Process;Begin-184
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-184;CronGroup;1010.Start Process;Begin-184
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-184;CronGroup;1010.Start Process;Begin-184
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-184;CronGroup;1010.Start Process;Begin-184
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-186;CronGroup;1010.Start Process;Begin-186
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-186;CronGroup;1010.Start Process;Begin-186
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-186;CronGroup;1010.Start Process;Begin-186
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-186;CronGroup;1010.Start Process;Begin-186
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-187;CronGroup;1010.Start Process;Begin-187
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-187;CronGroup;1010.Start Process;Begin-187
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-187;CronGroup;1010.Start Process;Begin-187
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-187;CronGroup;1010.Start Process;Begin-187
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-188;CronGroup;1010.Start Process;Begin-188
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-188;CronGroup;1010.Start Process;Begin-188
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-188;CronGroup;1010.Start Process;Begin-188
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-188;CronGroup;1010.Start Process;Begin-188
+..4-2.. Pos=0, buf=
+2014/08/06 16:43:29.232 AppiaMW Session Link Fail! (172.16.53.199:6113)(connect fail(79):Connection refused)
+2014/08/06 16:43:29.252 AppiaMW Session Link Fail! (172.16.53.199:6213)(connect fail(79):Connection refused)
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-196;CronGroup;1010.Start Process;Begin-196
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-196;CronGroup;1010.Start Process;Begin-196
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-196;CronGroup;1010.Start Process;Begin-196
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-196;CronGroup;1010.Start Process;Begin-196
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-198;CronGroup;1010.Start Process;Begin-198
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-198;CronGroup;1010.Start Process;Begin-198
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-198;CronGroup;1010.Start Process;Begin-198
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-198;CronGroup;1010.Start Process;Begin-198
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-200;CronGroup;1010.Start Process;Begin-200
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-200;CronGroup;1010.Start Process;Begin-200
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-200;CronGroup;1010.Start Process;Begin-200
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-200;CronGroup;1010.Start Process;Begin-200
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=79, Pos=0, buf=152318;XA1002;T;win-way;1010.Start-167;CronGroup;1010.Start Process;Begin-167
+
+..2-1.. Seperator=, Pos=79, buf=152318;XA1002;T;win-way;1010.Start-167;CronGroup;1010.Start Process;Begin-167
+
+..3.. len=78, Pos=79, S=, buf=152318;XA1002;T;win-way;1010.Start-167;CronGroup;1010.Start Process;Begin-167
+..4.. Pos=0, buf=152318;XA1002;T;win-way;1010.Start-167;CronGroup;1010.Start Process;Begin-167
+..4-2.. Pos=0, buf=
+2014/08/06 16:43:59.234 AppiaMW Session Link Fail! (172.16.53.199:6113)(connect fail(79):Connection refused)
+2014/08/06 16:43:59.254 AppiaMW Session Link Fail! (172.16.53.199:6213)(connect fail(79):Connection refused)
+2014/08/06 16:44:29.252 AppiaMW Session Link Fail! (172.16.53.199:6113)(connect fail(79):Connection refused)
+2014/08/06 16:44:29.266 AppiaMW Session Link Fail! (172.16.53.199:6213)(connect fail(79):Connection refused)

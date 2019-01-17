@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Extensibility Framework Configuration -->
+<ef-configuration>
+    <!-- Plugins are created and installed in the order in which they are listed here.-->
+    <plugins>
+        <plugin name="Throttle" code="throttleplugin.ThrottlePlugin">
+            <plugin-filter code="com.javtech.appia.ef.session.SessionPluginFilter">
+                <param name="ProtocolType" value="FIX" />
+                <param name="SessionName" value="" />
+            </plugin-filter>
+            <plugin-args>
+                <param name="configuration" value="/javelin/appia/conf/throttle.xml" />
+            </plugin-args>
+        </plugin>
+    </plugins>
+</ef-configuration>

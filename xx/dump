@@ -1,0 +1,918 @@
+Loading... SignonSvr: libxsSignonSvrDB.so
+±Ò°Ê¤¤...
+OK!
+XCtrl main startup!
+Now is: 103/08/06 17:04:16
+EvDev:poll. Ready.
+ns$2014/08/06 17:04:17.334 AppiaMW Session Link Fail! (172.16.53.199:6113)(connect fail(79):Connection refused)
+2014/08/06 17:04:17.335 AppiaMW Session Link Fail! (172.16.53.199:6213)(connect fail(79):Connection refused)
+2014/08/06 17:04:47.342 AppiaMW Session Link Fail! (172.16.53.199:6113)(connect fail(79):Connection refused)
+2014/08/06 17:04:47.353 AppiaMW Session Link Fail! (172.16.53.199:6213)(connect fail(79):Connection refused)
+..1.. Pos=0, MaxLen=1024, buf=M_PROLOG_BEGIN_TAG 
+# This is an automatically generated prolog. 
+#  
+# bos61D src/bos/usr/sbin/netstart/hosts 1.2 
+#  
+# Licensed Materials - Property of IBM 
+#  
+# COPYRIGHT International Business Machines Corp. 1985,1989 
+# All Rights Reserved 
+#  
+# US Government Users Restricted Rights - Use, duplication or 
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp. 
+#  
+# @(#)47	1.2  src/bos/usr/sbin/netstart/hosts, cmdnet, bos61D, d2007_49A2 10/1/07 13:57:52
+# IBM_PROLOG_END_TAG 
+# 
+# COMPONENT_NAME: TCPIP hosts
+# 
+# FUNCTIONS: loopback 
+#
+# ORIGINS: 26  27 
+#
+# (C) COPYRIGHT International Business Machines Corp. 1985, 1989
+# All Rights Reserved
+# Licensed Materials - Property of IBM
+#
+# US Government Users Restricted Rights - Use, duplication or
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+#
+#  /etc/hosts
+#
+# This file contains the hostnames and their address for hosts in the
+# network.  This file is used to resolve a hostname into an Internet
+# address.  
+#
+# At minimum, this file must contain the name and address for each
+# device defined for TCP in your /etc/net file.  It may also contain
+# entries for well-known (reserved) names such as timeserver
+# and printserver as well as any other host name and address.
+#
+# The format of this file is:
+# Internet Address	Hostname	# Comments
+# Internet Address can be either IPv4 or IPv6 address.
+# Items are separated by any number of blanks and/or tabs.  A '#'
+# indicates the beginning of a comment; characters up to the end of the
+# line are not interpreted by routines which search this file.  Blank
+# lines are allowed.
+
+# Internet Address	Hostname	# Comments
+# 192.9.200.1     	net0sample	# ethernet name/address
+# 128.100.0.1		token0sample	# token ring name/address
+# 10.2.0.2		x25sample	# x.25 name/address
+# 2000:1:1:1:209:6bff:feee:2b7f		ipv6sample	# ipv6 name/address
+127.0.0.1		loopback localhost	# loopback (lo0) name/address
+::1			loopback localhost	# IPv6 loopback (lo0) name/address
+172.16.53.199	win-way
+
+..2.. rdsz=4, Pos=0, buf=
+
+OLOG_BEGIN_TAG 
+# This is an automatically generated prolog. 
+#  
+# bos61D src/bos/usr/sbin/netstart/hosts 1.2 
+#  
+# Licensed Materials - Property of IBM 
+#  
+# COPYRIGHT International Business Machines Corp. 1985,1989 
+# All Rights Reserved 
+#  
+# US Government Users Restricted Rights - Use, duplication or 
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp. 
+#  
+# @(#)47	1.2  src/bos/usr/sbin/netstart/hosts, cmdnet, bos61D, d2007_49A2 10/1/07 13:57:52
+# IBM_PROLOG_END_TAG 
+# 
+# COMPONENT_NAME: TCPIP hosts
+# 
+# FUNCTIONS: loopback 
+#
+# ORIGINS: 26  27 
+#
+# (C) COPYRIGHT International Business Machines Corp. 1985, 1989
+# All Rights Reserved
+# Licensed Materials - Property of IBM
+#
+# US Government Users Restricted Rights - Use, duplication or
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+#
+#  /etc/hosts
+#
+# This file contains the hostnames and their address for hosts in the
+# network.  This file is used to resolve a hostname into an Internet
+# address.  
+#
+# At minimum, this file must contain the name and address for each
+# device defined for TCP in your /etc/net file.  It may also contain
+# entries for well-known (reserved) names such as timeserver
+# and printserver as well as any other host name and address.
+#
+# The format of this file is:
+# Internet Address	Hostname	# Comments
+# Internet Address can be either IPv4 or IPv6 address.
+# Items are separated by any number of blanks and/or tabs.  A '#'
+# indicates the beginning of a comment; characters up to the end of the
+# line are not interpreted by routines which search this file.  Blank
+# lines are allowed.
+
+# Internet Address	Hostname	# Comments
+# 192.9.200.1     	net0sample	# ethernet name/address
+# 128.100.0.1		token0sample	# token ring name/address
+# 10.2.0.2		x25sample	# x.25 name/address
+# 2000:1:1:1:209:6bff:feee:2b7f		ipv6sample	# ipv6 name/address
+127.0.0.1		loopback localhost	# loopback (lo0) name/address
+::1			loopback localhost	# IPv6 loopback (lo0) name/address
+172.16.53.199	win-way
+
+..2-1.. Seperator=, Pos=4, buf=
+
+
+..3.. len=1, Pos=4, S=, buf=
+..4.. Pos=2, buf=
+..4-1.1.. Pos=2, buf=
+..4-1.2.. Pos=2, buf=
+
+..3.. len=1, Pos=2, S=, buf=
+..4.. Pos=0, buf=
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=18, Pos=0, buf=GET / HTTP/1.0
+
+
+..2-1.. Seperator=, Pos=18, buf=GET / HTTP/1.0
+
+
+..3.. len=15, Pos=18, S=, buf=GET / HTTP/1.0
+..4.. Pos=2, buf=GET / HTTP/1.0
+..4-1.1.. Pos=2, buf=GET / HTTP/1.0
+..4-1.2.. Pos=2, buf=
+
+..3.. len=1, Pos=2, S=, buf=
+..4.. Pos=0, buf=
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=22, Pos=0, buf=OPTIONS / HTTP/1.0
+
+
+..2-1.. Seperator=, Pos=22, buf=OPTIONS / HTTP/1.0
+
+
+..3.. len=19, Pos=22, S=, buf=OPTIONS / HTTP/1.0
+..4.. Pos=2, buf=OPTIONS / HTTP/1.0
+..4-1.1.. Pos=2, buf=OPTIONS / HTTP/1.0
+..4-1.2.. Pos=2, buf=
+
+..3.. len=1, Pos=2, S=, buf=
+..4.. Pos=0, buf=
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=22, Pos=0, buf=OPTIONS / RTSP/1.0
+
+
+..2-1.. Seperator=, Pos=22, buf=OPTIONS / RTSP/1.0
+
+
+..3.. len=19, Pos=22, S=, buf=OPTIONS / RTSP/1.0
+..4.. Pos=2, buf=OPTIONS / RTSP/1.0
+..4-1.1.. Pos=2, buf=OPTIONS / RTSP/1.0
+..4-1.2.. Pos=2, buf=
+
+..3.. len=1, Pos=2, S=, buf=
+..4.. Pos=0, buf=
+..4-2.. Pos=0, buf=
+2014/08/06 17:05:17.347 AppiaMW Session Link Fail! (172.16.53.199:6113)(connect fail(79):Connection refused)
+2014/08/06 17:05:17.364 AppiaMW Session Link Fail! (172.16.53.199:6213)(connect fail(79):Connection refused)
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=44, Pos=0, buf=€
+..2-1.. Seperator=, Pos=44, buf=€
+..5.. Pos=44, buf=€
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=32, Pos=0, buf=
+..2-1.. Seperator=, Pos=32, buf=
+..5.. Pos=32, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=14, Pos=0, buf=
+..2-1.. Seperator=, Pos=14, buf=
+..5.. Pos=14, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=6, Pos=0, buf=HELP
+
+..2-1.. Seperator=, Pos=6, buf=HELP
+
+..3.. len=5, Pos=6, S=, buf=HELP
+..4.. Pos=0, buf=HELP
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=88, Pos=0, buf=
+..2-1.. Seperator=, Pos=88, buf=
+..5.. Pos=88, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=117, Pos=0, buf=
+..2-1.. Seperator=, Pos=117, buf=
+..5.. Pos=117, buf=
+2014/08/06 17:05:47.363 AppiaMW Session Link Fail! (172.16.53.199:6113)(connect fail(79):Connection refused)
+2014/08/06 17:05:47.374 AppiaMW Session Link Fail! (172.16.53.199:6213)(connect fail(79):Connection refused)
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=168, Pos=0, buf=
+..2-1.. Seperator=, Pos=168, buf=
+..5.. Pos=168, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=12, Pos=0, buf=l
+..2-1.. Seperator=, Pos=12, buf=l
+..5.. Pos=12, buf=l
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=53, Pos=0, buf=GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0
+
+
+..2-1.. Seperator=, Pos=53, buf=GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0
+
+
+..3.. len=50, Pos=53, S=, buf=GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0
+..4.. Pos=2, buf=GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0
+..4-1.1.. Pos=2, buf=GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0
+..4-1.2.. Pos=2, buf=
+
+..3.. len=1, Pos=2, S=, buf=
+..4.. Pos=0, buf=
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=9, Pos=0, buf=default
+
+..2-1.. Seperator=, Pos=9, buf=default
+
+..3.. len=8, Pos=9, S=, buf=default
+..4.. Pos=0, buf=default
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=14, Pos=0, buf=0`
+..2-1.. Seperator=, Pos=14, buf=0`
+..5.. Pos=14, buf=0`
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=223, Pos=0, buf=OPTIONS sip:nm SIP/2.0
+Via: SIP/2.0/TCP nm;branch=foo
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Max-Forwards: 70
+Content-Length: 0
+Contact: <sip:nm@nm>
+Accept: application/sdp
+
+
+..2-1.. Seperator=, Pos=223, buf=OPTIONS sip:nm SIP/2.0
+Via: SIP/2.0/TCP nm;branch=foo
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Max-Forwards: 70
+Content-Length: 0
+Contact: <sip:nm@nm>
+Accept: application/sdp
+
+
+..3.. len=23, Pos=223, S=, buf=OPTIONS sip:nm SIP/2.0
+..4.. Pos=199, buf=OPTIONS sip:nm SIP/2.0
+..4-1.1.. Pos=199, buf=OPTIONS sip:nm SIP/2.0
+..4-1.2.. Pos=199, buf=Via: SIP/2.0/TCP nm;branch=foo
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Max-Forwards: 70
+Content-Length: 0
+Contact: <sip:nm@nm>
+Accept: application/sdp
+
+
+..3.. len=31, Pos=199, S=, buf=Via: SIP/2.0/TCP nm;branch=foo
+..4.. Pos=167, buf=Via: SIP/2.0/TCP nm;branch=foo
+..4-1.1.. Pos=167, buf=Via: SIP/2.0/TCP nm;branch=foo
+..4-1.2.. Pos=167, buf=From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Max-Forwards: 70
+Content-Length: 0
+Contact: <sip:nm@nm>
+Accept: application/sdp
+
+
+..3.. len=27, Pos=167, S=, buf=From: <sip:nm@nm>;tag=root
+..4.. Pos=139, buf=From: <sip:nm@nm>;tag=root
+..4-1.1.. Pos=139, buf=From: <sip:nm@nm>;tag=root
+..4-1.2.. Pos=139, buf=To: <sip:nm2@nm2>
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Max-Forwards: 70
+Content-Length: 0
+Contact: <sip:nm@nm>
+Accept: application/sdp
+
+
+..3.. len=18, Pos=139, S=, buf=To: <sip:nm2@nm2>
+..4.. Pos=120, buf=To: <sip:nm2@nm2>
+..4-1.1.. Pos=120, buf=To: <sip:nm2@nm2>
+..4-1.2.. Pos=120, buf=Call-ID: 50000
+CSeq: 42 OPTIONS
+Max-Forwards: 70
+Content-Length: 0
+Contact: <sip:nm@nm>
+Accept: application/sdp
+
+
+..3.. len=15, Pos=120, S=, buf=Call-ID: 50000
+..4.. Pos=104, buf=Call-ID: 50000
+..4-1.1.. Pos=104, buf=Call-ID: 50000
+..4-1.2.. Pos=104, buf=CSeq: 42 OPTIONS
+Max-Forwards: 70
+Content-Length: 0
+Contact: <sip:nm@nm>
+Accept: application/sdp
+
+
+..3.. len=17, Pos=104, S=, buf=CSeq: 42 OPTIONS
+..4.. Pos=86, buf=CSeq: 42 OPTIONS
+..4-1.1.. Pos=86, buf=CSeq: 42 OPTIONS
+..4-1.2.. Pos=86, buf=Max-Forwards: 70
+Content-Length: 0
+Contact: <sip:nm@nm>
+Accept: application/sdp
+
+
+..3.. len=17, Pos=86, S=, buf=Max-Forwards: 70
+..4.. Pos=68, buf=Max-Forwards: 70
+..4-1.1.. Pos=68, buf=Max-Forwards: 70
+..4-1.2.. Pos=68, buf=Content-Length: 0
+Contact: <sip:nm@nm>
+Accept: application/sdp
+
+
+..3.. len=18, Pos=68, S=, buf=Content-Length: 0
+..4.. Pos=49, buf=Content-Length: 0
+..4-1.1.. Pos=49, buf=Content-Length: 0
+..4-1.2.. Pos=49, buf=Contact: <sip:nm@nm>
+Accept: application/sdp
+
+
+..3.. len=21, Pos=49, S=, buf=Contact: <sip:nm@nm>
+..4.. Pos=27, buf=Contact: <sip:nm@nm>
+..4-1.1.. Pos=27, buf=Contact: <sip:nm@nm>
+..4-1.2.. Pos=27, buf=Accept: application/sdp
+
+
+..3.. len=24, Pos=27, S=, buf=Accept: application/sdp
+..4.. Pos=2, buf=Accept: application/sdp
+..4-1.1.. Pos=2, buf=Accept: application/sdp
+..4-1.2.. Pos=2, buf=
+
+..3.. len=1, Pos=2, S=, buf=
+..4.. Pos=0, buf=
+..4-2.. Pos=0, buf=
+2014/08/06 17:06:17.374 AppiaMW Session Link Fail! (172.16.53.199:6113)(connect fail(79):Connection refused)
+2014/08/06 17:06:17.394 AppiaMW Session Link Fail! (172.16.53.199:6213)(connect fail(79):Connection refused)
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=16, Pos=0, buf=TNMP
+..2-1.. Seperator=, Pos=16, buf=TNMP
+..5.. Pos=16, buf=TNMP
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=11, Pos=0, buf=
+..2-1.. Seperator=, Pos=11, buf=
+..5.. Pos=11, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=23, Pos=0, buf=DmdT
+..2-1.. Seperator=, Pos=23, buf=DmdT
+..5.. Pos=23, buf=DmdT
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=60, Pos=0, buf=:
+..2-1.. Seperator=, Pos=60, buf=:
+..5.. Pos=60, buf=:
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=175, Pos=0, buf=
+..2-1.. Seperator=, Pos=175, buf=
+..5.. Pos=175, buf=
+2014/08/06 17:06:47.374 AppiaMW Session Link Fail! (172.16.53.199:6113)(connect fail(79):Connection refused)
+2014/08/06 17:06:47.394 AppiaMW Session Link Fail! (172.16.53.199:6213)(connect fail(79):Connection refused)
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=90, Pos=0, buf=
+..2-1.. Seperator=, Pos=90, buf=
+..5.. Pos=90, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=18, Pos=0, buf=
+..2-1.. Seperator=, Pos=18, buf=
+..5.. Pos=18, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=8, Pos=0, buf=”
+..2-1.. Seperator=, Pos=8, buf=”
+..5.. Pos=8, buf=”
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+2014/08/06 17:07:17.386 AppiaMW Session Link Fail! (172.16.53.199:6113)(connect fail(79):Connection refused)
+2014/08/06 17:07:17.397 AppiaMW Session Link Fail! (172.16.53.199:6213)(connect fail(79):Connection refused)
+2014/08/06 17:07:47.390 AppiaMW Session Link Fail! (172.16.53.199:6113)(connect fail(79):Connection refused)
+2014/08/06 17:07:47.400 AppiaMW Session Link Fail! (172.16.53.199:6213)(connect fail(79):Connection refused)
+2014/08/06 17:08:17.405 AppiaMW Session Link Fail! (172.16.53.199:6113)(connect fail(79):Connection refused)
+2014/08/06 17:08:17.425 AppiaMW Session Link Fail! (172.16.53.199:6213)(connect fail(79):Connection refused)
+..1.. Pos=0, MaxLen=1024, buf=M_PROLOG_BEGIN_TAG 
+# This is an automatically generated prolog. 
+#  
+# bos61D src/bos/usr/sbin/netstart/hosts 1.2 
+#  
+# Licensed Materials - Property of IBM 
+#  
+# COPYRIGHT International Business Machines Corp. 1985,1989 
+# All Rights Reserved 
+#  
+# US Government Users Restricted Rights - Use, duplication or 
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp. 
+#  
+# @(#)47	1.2  src/bos/usr/sbin/netstart/hosts, cmdnet, bos61D, d2007_49A2 10/1/07 13:57:52
+# IBM_PROLOG_END_TAG 
+# 
+# COMPONENT_NAME: TCPIP hosts
+# 
+# FUNCTIONS: loopback 
+#
+# ORIGINS: 26  27 
+#
+# (C) COPYRIGHT International Business Machines Corp. 1985, 1989
+# All Rights Reserved
+# Licensed Materials - Property of IBM
+#
+# US Government Users Restricted Rights - Use, duplication or
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+#
+#  /etc/hosts
+#
+# This file contains the hostnames and their address for hosts in the
+# network.  This file is used to resolve a hostname into an Internet
+# address.  
+#
+# At minimum, this file must contain the name and address for each
+# device defined for TCP in your /etc/net file.  It may also contain
+# entries for well-known (reserved) names such as timeserver
+# and printserver as well as any other host name and address.
+#
+# The format of this file is:
+# Internet Address	Hostname	# Comments
+# Internet Address can be either IPv4 or IPv6 address.
+# Items are separated by any number of blanks and/or tabs.  A '#'
+# indicates the beginning of a comment; characters up to the end of the
+# line are not interpreted by routines which search this file.  Blank
+# lines are allowed.
+
+# Internet Address	Hostname	# Comments
+# 192.9.200.1     	net0sample	# ethernet name/address
+# 128.100.0.1		token0sample	# token ring name/address
+# 10.2.0.2		x25sample	# x.25 name/address
+# 2000:1:1:1:209:6bff:feee:2b7f		ipv6sample	# ipv6 name/address
+127.0.0.1		loopback localhost	# loopback (lo0) name/address
+::1			loopback localhost	# IPv6 loopback (lo0) name/address
+172.16.53.199	win-way
+
+..2.. rdsz=44, Pos=0, buf=€
+..2-1.. Seperator=, Pos=44, buf=€
+..5.. Pos=44, buf=€
+..1.. Pos=0, MaxLen=1024, buf=M_PROLOG_BEGIN_TAG 
+# This is an automatically generated prolog. 
+#  
+# bos61D src/bos/usr/sbin/netstart/hosts 1.2 
+#  
+# Licensed Materials - Property of IBM 
+#  
+# COPYRIGHT International Business Machines Corp. 1985,1989 
+# All Rights Reserved 
+#  
+# US Government Users Restricted Rights - Use, duplication or 
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp. 
+#  
+# @(#)47	1.2  src/bos/usr/sbin/netstart/hosts, cmdnet, bos61D, d2007_49A2 10/1/07 13:57:52
+# IBM_PROLOG_END_TAG 
+# 
+# COMPONENT_NAME: TCPIP hosts
+# 
+# FUNCTIONS: loopback 
+#
+# ORIGINS: 26  27 
+#
+# (C) COPYRIGHT International Business Machines Corp. 1985, 1989
+# All Rights Reserved
+# Licensed Materials - Property of IBM
+#
+# US Government Users Restricted Rights - Use, duplication or
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+#
+#  /etc/hosts
+#
+# This file contains the hostnames and their address for hosts in the
+# network.  This file is used to resolve a hostname into an Internet
+# address.  
+#
+# At minimum, this file must contain the name and address for each
+# device defined for TCP in your /etc/net file.  It may also contain
+# entries for well-known (reserved) names such as timeserver
+# and printserver as well as any other host name and address.
+#
+# The format of this file is:
+# Internet Address	Hostname	# Comments
+# Internet Address can be either IPv4 or IPv6 address.
+# Items are separated by any number of blanks and/or tabs.  A '#'
+# indicates the beginning of a comment; characters up to the end of the
+# line are not interpreted by routines which search this file.  Blank
+# lines are allowed.
+
+# Internet Address	Hostname	# Comments
+# 192.9.200.1     	net0sample	# ethernet name/address
+# 128.100.0.1		token0sample	# token ring name/address
+# 10.2.0.2		x25sample	# x.25 name/address
+# 2000:1:1:1:209:6bff:feee:2b7f		ipv6sample	# ipv6 name/address
+127.0.0.1		loopback localhost	# loopback (lo0) name/address
+::1			loopback localhost	# IPv6 loopback (lo0) name/address
+172.16.53.199	win-way
+
+..2.. rdsz=4, Pos=0, buf=
+
+OLOG_BEGIN_TAG 
+# This is an automatically generated prolog. 
+#  
+# bos61D src/bos/usr/sbin/netstart/hosts 1.2 
+#  
+# Licensed Materials - Property of IBM 
+#  
+# COPYRIGHT International Business Machines Corp. 1985,1989 
+# All Rights Reserved 
+#  
+# US Government Users Restricted Rights - Use, duplication or 
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp. 
+#  
+# @(#)47	1.2  src/bos/usr/sbin/netstart/hosts, cmdnet, bos61D, d2007_49A2 10/1/07 13:57:52
+# IBM_PROLOG_END_TAG 
+# 
+# COMPONENT_NAME: TCPIP hosts
+# 
+# FUNCTIONS: loopback 
+#
+# ORIGINS: 26  27 
+#
+# (C) COPYRIGHT International Business Machines Corp. 1985, 1989
+# All Rights Reserved
+# Licensed Materials - Property of IBM
+#
+# US Government Users Restricted Rights - Use, duplication or
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+#
+#  /etc/hosts
+#
+# This file contains the hostnames and their address for hosts in the
+# network.  This file is used to resolve a hostname into an Internet
+# address.  
+#
+# At minimum, this file must contain the name and address for each
+# device defined for TCP in your /etc/net file.  It may also contain
+# entries for well-known (reserved) names such as timeserver
+# and printserver as well as any other host name and address.
+#
+# The format of this file is:
+# Internet Address	Hostname	# Comments
+# Internet Address can be either IPv4 or IPv6 address.
+# Items are separated by any number of blanks and/or tabs.  A '#'
+# indicates the beginning of a comment; characters up to the end of the
+# line are not interpreted by routines which search this file.  Blank
+# lines are allowed.
+
+# Internet Address	Hostname	# Comments
+# 192.9.200.1     	net0sample	# ethernet name/address
+# 128.100.0.1		token0sample	# token ring name/address
+# 10.2.0.2		x25sample	# x.25 name/address
+# 2000:1:1:1:209:6bff:feee:2b7f		ipv6sample	# ipv6 name/address
+127.0.0.1		loopback localhost	# loopback (lo0) name/address
+::1			loopback localhost	# IPv6 loopback (lo0) name/address
+172.16.53.199	win-way
+
+..2-1.. Seperator=, Pos=4, buf=
+
+
+..3.. len=1, Pos=4, S=, buf=
+..4.. Pos=2, buf=
+..4-1.1.. Pos=2, buf=
+..4-1.2.. Pos=2, buf=
+
+..3.. len=1, Pos=2, S=, buf=
+..4.. Pos=0, buf=
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=18, Pos=0, buf=GET / HTTP/1.0
+
+
+..2-1.. Seperator=, Pos=18, buf=GET / HTTP/1.0
+
+
+..3.. len=15, Pos=18, S=, buf=GET / HTTP/1.0
+..4.. Pos=2, buf=GET / HTTP/1.0
+..4-1.1.. Pos=2, buf=GET / HTTP/1.0
+..4-1.2.. Pos=2, buf=
+
+..3.. len=1, Pos=2, S=, buf=
+..4.. Pos=0, buf=
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=22, Pos=0, buf=OPTIONS / HTTP/1.0
+
+
+..2-1.. Seperator=, Pos=22, buf=OPTIONS / HTTP/1.0
+
+
+..3.. len=19, Pos=22, S=, buf=OPTIONS / HTTP/1.0
+..4.. Pos=2, buf=OPTIONS / HTTP/1.0
+..4-1.1.. Pos=2, buf=OPTIONS / HTTP/1.0
+..4-1.2.. Pos=2, buf=
+
+..3.. len=1, Pos=2, S=, buf=
+..4.. Pos=0, buf=
+..4-2.. Pos=0, buf=
+2014/08/06 17:08:47.411 AppiaMW Session Link Fail! (172.16.53.199:6113)(connect fail(79):Connection refused)
+2014/08/06 17:08:47.430 AppiaMW Session Link Fail! (172.16.53.199:6213)(connect fail(79):Connection refused)
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=22, Pos=0, buf=OPTIONS / RTSP/1.0
+
+
+..2-1.. Seperator=, Pos=22, buf=OPTIONS / RTSP/1.0
+
+
+..3.. len=19, Pos=22, S=, buf=OPTIONS / RTSP/1.0
+..4.. Pos=2, buf=OPTIONS / RTSP/1.0
+..4-1.1.. Pos=2, buf=OPTIONS / RTSP/1.0
+..4-1.2.. Pos=2, buf=
+
+..3.. len=1, Pos=2, S=, buf=
+..4.. Pos=0, buf=
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=44, Pos=0, buf=€
+..2-1.. Seperator=, Pos=44, buf=€
+..5.. Pos=44, buf=€
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=32, Pos=0, buf=
+..2-1.. Seperator=, Pos=32, buf=
+..5.. Pos=32, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=14, Pos=0, buf=
+..2-1.. Seperator=, Pos=14, buf=
+..5.. Pos=14, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=6, Pos=0, buf=HELP
+
+..2-1.. Seperator=, Pos=6, buf=HELP
+
+..3.. len=5, Pos=6, S=, buf=HELP
+..4.. Pos=0, buf=HELP
+..4-2.. Pos=0, buf=
+2014/08/06 17:09:17.418 AppiaMW Session Link Fail! (172.16.53.199:6113)(connect fail(79):Connection refused)
+2014/08/06 17:09:17.444 AppiaMW Session Link Fail! (172.16.53.199:6213)(connect fail(79):Connection refused)
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=88, Pos=0, buf=
+..2-1.. Seperator=, Pos=88, buf=
+..5.. Pos=88, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=117, Pos=0, buf=
+..2-1.. Seperator=, Pos=117, buf=
+..5.. Pos=117, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=168, Pos=0, buf=
+..2-1.. Seperator=, Pos=168, buf=
+..5.. Pos=168, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=12, Pos=0, buf=l
+..2-1.. Seperator=, Pos=12, buf=l
+..5.. Pos=12, buf=l
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=53, Pos=0, buf=GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0
+
+
+..2-1.. Seperator=, Pos=53, buf=GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0
+
+
+..3.. len=50, Pos=53, S=, buf=GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0
+..4.. Pos=2, buf=GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0
+..4-1.1.. Pos=2, buf=GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0
+..4-1.2.. Pos=2, buf=
+
+..3.. len=1, Pos=2, S=, buf=
+..4.. Pos=0, buf=
+..4-2.. Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=9, Pos=0, buf=default
+
+..2-1.. Seperator=, Pos=9, buf=default
+
+..3.. len=8, Pos=9, S=, buf=default
+..4.. Pos=0, buf=default
+..4-2.. Pos=0, buf=
+2014/08/06 17:09:47.425 AppiaMW Session Link Fail! (172.16.53.199:6113)(connect fail(79):Connection refused)
+2014/08/06 17:09:47.455 AppiaMW Session Link Fail! (172.16.53.199:6213)(connect fail(79):Connection refused)
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=14, Pos=0, buf=0`
+..2-1.. Seperator=, Pos=14, buf=0`
+..5.. Pos=14, buf=0`
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=0, Pos=0, buf=
+..1.. Pos=0, MaxLen=1024, buf=
+..2.. rdsz=223, Pos=0, buf=OPTIONS sip:nm SIP/2.0
+Via: SIP/2.0/TCP nm;branch=foo
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Max-Forwards: 70
+Content-Length: 0
+Contact: <sip:nm@nm>
+Accept: application/sdp
+
+
+..2-1.. Seperator=, Pos=223, buf=OPTIONS sip:nm SIP/2.0
+Via: SIP/2.0/TCP nm;branch=foo
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Max-Forwards: 70
+Content-Length: 0
+Contact: <sip:nm@nm>
+Accept: application/sdp
+
+
+..3.. len=23, Pos=223, S=, buf=OPTIONS sip:nm SIP/2.0
+..4.. Pos=199, buf=OPTIONS sip:nm SIP/2.0
+..4-1.1.. Pos=199, buf=OPTIONS sip:nm SIP/2.0
+..4-1.2.. Pos=199, buf=Via: SIP/2.0/TCP nm;branch=foo
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Max-Forwards: 70
+Content-Length: 0
+Contact: <sip:nm@nm>
+Accept: application/sdp
+
+
+..3.. len=31, Pos=199, S=, buf=Via: SIP/2.0/TCP nm;branch=foo
+..4.. Pos=167, buf=Via: SIP/2.0/TCP nm;branch=foo
+..4-1.1.. Pos=167, buf=Via: SIP/2.0/TCP nm;branch=foo
+..4-1.2.. Pos=167, buf=From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Max-Forwards: 70
+Content-Length: 0
+Contact: <sip:nm@nm>
+Accept: application/sdp
+
+
+..3.. len=27, Pos=167, S=, buf=From: <sip:nm@nm>;tag=root
+..4.. Pos=139, buf=From: <sip:nm@nm>;tag=root
+..4-1.1.. Pos=139, buf=From: <sip:nm@nm>;tag=root
+..4-1.2.. Pos=139, buf=To: <sip:nm2@nm2>
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Max-Forwards: 70
+Content-Length: 0
+Contact: <sip:nm@nm>
+Accept: application/sdp
+
+
+..3.. len=18, Pos=139, S=, buf=To: <sip:nm2@nm2>
+..4.. Pos=120, buf=To: <sip:nm2@nm2>
+..4-1.1.. Pos=120, buf=To: <sip:nm2@nm2>
+..4-1.2.. Pos=120, buf=Call-ID: 50000
+CSeq: 42 OPTIONS
+Max-Forwards: 70
+Content-Length: 0
+Contact: <sip:nm@nm>
+Accept: application/sdp
+
+
+..3.. len=15, Pos=120, S=, buf=Call-ID: 50000
+..4.. Pos=104, buf=Call-ID: 50000
+..4-1.1.. Pos=104, buf=Call-ID: 50000
+..4-1.2.. Pos=104, buf=CSeq: 42 OPTIONS
+Max-Forwards: 70
+Content-Length: 0
+Contact: <sip:nm@nm>
+Accept: application/sdp
+
+
+..3.. len=17, Pos=104, S=, buf=CSeq: 42 OPTIONS
+..4.. Pos=86, buf=CSeq: 42 OPTIONS
+..4-1.1.. Pos=86, buf=CSeq: 42 OPTIONS
+..4-1.2.. Pos=86, buf=Max-Forwards: 70
+Content-Length: 0
+Contact: <sip:nm@nm>
+Accept: application/sdp
+
+
+..3.. len=17, Pos=86, S=, buf=Max-Forwards: 70
+..4.. Pos=68, buf=Max-Forwards: 70
+..4-1.1.. Pos=68, buf=Max-Forwards: 70
+..4-1.2.. Pos=68, buf=Content-Length: 0
+Contact: <sip:nm@nm>
+Accept: application/sdp
+
+
+..3.. len=18, Pos=68, S=, buf=Content-Length: 0
+..4.. Pos=49, buf=Content-Length: 0
+..4-1.1.. Pos=49, buf=Content-Length: 0
+..4-1.2.. Pos=49, buf=Contact: <sip:nm@nm>
+Accept: application/sdp
+
+
+..3.. len=21, Pos=49, S=, buf=Contact: <sip:nm@nm>
+..4.. Pos=27, buf=Contact: <sip:nm@nm>
+..4-1.1.. Pos=27, buf=Contact: <sip:nm@nm>
+..4-1.2.. Pos=27, buf=Accept: application/sdp
+
+
+..3.. len=24, Pos=27, S=, buf=Accept: application/sdp
+..4.. Pos=2, buf=Accept: application/sdp
+..4-1.1.. Pos=2, buf=Accept: application/sdp
+..4-1.2.. Pos=2, buf=
+
+..3.. len=1, Pos=2, S=, buf=
+..4.. Pos=0, buf=
+..4-2.. Pos=0, buf=

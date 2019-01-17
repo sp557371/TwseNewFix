@@ -1,0 +1,34 @@
+/////////////////////////////////////////////////////////////////////////////
+#if !defined(_TwseFstAdptOrd_h_)
+#define _TwseFstAdptOrd_h_
+//---------------------------------------------------------------------------
+#include "TwseFstAdpt.h"
+
+/////////////////////////////////////////////////////////////////////////////
+namespace Kway {
+
+/////////////////////////////////////////////////////////////////////////////
+// class TTwseFstAdpt::TFixOrdImpl
+/////////////////////////////////////////////////////////////////////////////
+class TTwseFstAdpt::TFixOrdImpl : public TFixOrdFlow::TFlowStep
+{
+   //TTwseFstAdpt*  Adpt_;
+   TOrdImpl*      OrdImpl_;
+   TFixOrdFlow*   FixOrdFlow_;
+   TFixTradeLog*  FixTradeLog_;
+
+public:
+   K_ctor  TFixOrdImpl (TTwseFstAdpt*);
+   K_dtor ~TFixOrdImpl ();
+
+private:
+   //==============================================
+   // overwrite TFixOrdFlow::TFlowStep virtual function
+   K_mf(bool) OnFsOrdReq (TFixOfReqPtr);
+};
+
+/////////////////////////////////////////////////////////////////////////////
+}; // namespace Kway
+
+/////////////////////////////////////////////////////////////////////////////
+#endif // !defined(_TwseFstAdptOrd_h_)

@@ -1,0 +1,87 @@
+#ifdef __BORLANDC__
+  #pragma hdrstop
+  #pragma package(smart_init)
+#endif
+//---------------------------------------------------------------------------
+#include "bxSes.h"
+#include "MesTCPClientTSE.h"
+#include "FTSysSetting.h"
+//#include "FileLog.h"
+//---------------------------------------------------------------------------
+using namespace Kway::Tw::Bx;
+//---------------------------------------------------------------------------
+const char Kway::Tw::Bx::SMsg::ACode_LineOpened [3] = "01";
+const char Kway::Tw::Bx::SMsg::ACode_LineClosed [3] = "02";
+const char Kway::Tw::Bx::SMsg::ACode_APPReady   [3] = "03";
+const char Kway::Tw::Bx::SMsg::ACode_ApTimeout  [3] = "04";
+const char Kway::Tw::Bx::SMsg::ACode_HBTimeout  [3] = "05";
+const char Kway::Tw::Bx::SMsg::ACode_LinkTimeout[3] = "06";
+//---------------------------------------------------------------------------
+const char SStatusStr::Processing = 'N';
+const char SStatusStr::Linked     = 'L';
+const char SStatusStr::Retrying   = 'P';
+//---------------------------------------------------------------------------
+const std::string TWorker::WorkerErrMsg = std::string("Exception! Can't find the worker!");
+//---------------------------------------------------------------------------
+K_ctor TbxSesBase::TbxSesBase(TbxFTSesMgr& aMgr)
+    : inherited(static_cast<Kway::TSesMgr*>(&aMgr)),
+    SesMgr_(&aMgr)
+{
+}
+//---------------------------------------------------------------------------
+K_mf(int) TbxSesBase::GetPacketSize(TbxData& aPkt)
+{
+  TWorker* worker = Workers_.GetWorker(aPkt.GetWorkKey());
+  return (worker ? worker->GetPacketSize(*this, aPkt):0);
+}
+//---------------------------------------------------------------------------
+K_mf(bool) TbxSesBase::APacket(TbxData& aPkt)
+{
+   char fname[256] = {0};
+   char buf[256] = {0};   
+   sprintf(fname, "%s/ses.log", GetLogPath().c_str());
+
+   TFile*  file;
+   sprintf(buf, "%s Start Apacket -> WorkKey = %d", TKDateTimeMS::Now().as_string().c_str(), aPkt.GetWorkKey());
+   file = new TFile(fname, TFileMode(fmWrite|fmAppend|fmOpenAlways|fmCreatePath)); //[Bug]20110208: Add fmTrunc to ensure the data will not have any residual number
+   if(file->IsOpened() == false)
+      file->Open(fname, TFileMode(fmWrite|fmAppend|fmOpenAlways|fmCreatePath)); //[Bug]20110208: Add fmTrunc to ensure the data will not have any residual number
+   file->Seek(file->GetFileSize(), fsBegin);
+   file->WriteLN(buf);
+   delete file;
+   file = NULL;
+   
+  TWorker* worker = Workers_.GetWorker(aPkt.GetWorkKey());
+  bool ret = worker ? worker->APacket(*this, aPkt):false;
+
+   sprintf(buf, "%s End Apacket", TKDateTimeMS::Now().as_string().c_str());
+   file = new TFile(fname, TFileMode(fmWrite|fmAppend|fmOpenAlways|fmCreatePath)); //[Bug]20110208: Add fmTrunc to ensure the data will not have any residual number
+   if(file->IsOpened() == false)
+      file->Open(fname, TFileMode(fmWrite|fmAppend|fmOpenAlways|fmCreatePath)); //[Bug]20110208: Add fmTrunc to ensure the data will not have any residual number
+   file->Seek(file->GetFileSize(), fsBegin);
+   file->WriteLN(buf);
+   delete file;
+   file = NULL;
+
+  return ret;
+   
+   
+/*   
+  TWorker* worker = Workers_.GetWorker(aPkt.GetWorkKey());
+  return (worker ? worker->APacket(*this, aPkt):false);
+*/  
+}
+//---------------------------------------------------------------------------
+K_mf(int) TbxSesBase::BeforeAPacket(TbxData& aPkt)
+{
+  TWorker* worker = Workers_.GetWorker(aPkt.GetWorkKey());
+  return (worker ? worker->BeforeAPacket(*this, aPkt):0);
+}
+//---------------------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+[user]
+	name = xtwse
+	email = xtwse@mail.kway.com.tw
+[alias]
+	st = status
+[apply]
+	whitespace = nowarn
+[color]
+	ui = true

@@ -1,0 +1,38 @@
+[0]
+0=true
+1=TSE 成交模擬
+2=200,192
+3=Ev-TSEServer
+4=18102
+
+[1]
+0=true
+1=TSE 委託模擬
+2=
+3=Ev-TSEServer
+4=18103
+
+[2]
+0=false
+1=TSE 線路測試
+2=T
+3=Ev-TSEServer
+4=18104
+[3]
+0=true
+1=TSE 委託模擬
+2=
+3=Ev-TSEServer
+4=18113
+[4]
+0=true
+1=FT-檔案傳輸模擬
+2=
+3=Ev-TSEServer
+4=18015
+[5]
+0=true
+1=DR-委託回報模擬
+2=
+3=Ev-TSEServer
+4=18016
